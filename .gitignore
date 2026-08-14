@@ -1,0 +1,49 @@
+# Dependencies
+backend/.venv/
+frontend/node_modules/
+backend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Dev tools / logs
+devtools/
+generate_icons.py
+run.sh
+
+# Vite temp files
+frontend/vite.config.js.timestamp-*.mjs
+
+# Secrets — never commit API keys
+.env
+*/.env
+**/.env
+!*.env.example
+
+# Old Krishi-e legacy folders — not part of Agricore
+app/
+Disease Predictor/
+models/
+notebooks/
+Data-raw/
+Data-processed/
+Data_to_consider/
+References/
+TEST_Project/
+.ipynb_checkpoints/
+dataset/
+New Plant Diseases Dataset(Augmented)/
+Docs/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

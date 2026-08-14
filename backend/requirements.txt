@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+torch
+torchvision
+scikit-learn
+numpy
+pandas
+pillow
+requests
+jsonschema
+tensorflow

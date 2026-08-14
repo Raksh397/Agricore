@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#84cc16;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="#f0fdf4"/>
+  <circle cx="340" cy="180" r="85" fill="url(#sunGrad)" opacity="0.9"/>
+  <path d="M 200 450 Q 220 350, 250 280 Q 280 210, 300 150 Q 310 120, 315 100 Q 315 80, 300 70 Q 290 65, 280 70 Q 270 75, 265 90 Q 255 120, 240 160 Q 220 210, 190 280 Q 160 350, 140 450 Z" fill="url(#leafGrad)" stroke="#15803d" stroke-width="3"/>
+  <path d="M 300 150 Q 340 160, 380 150 Q 400 145, 405 130 Q 408 120, 400 112 Q 390 105, 375 108 Q 340 115, 300 105" fill="url(#leafGrad)" stroke="#15803d" stroke-width="2"/>
+  <path d="M 250 280 Q 210 290, 170 285 Q 150 283, 145 270 Q 143 260, 151 252 Q 161 245, 176 248 Q 211 253, 251 248" fill="url(#leafGrad)" stroke="#15803d" stroke-width="2"/>
+  <ellipse cx="340" cy="175" rx="18" ry="22" fill="#fde68a" opacity="0.6"/>
+</svg>

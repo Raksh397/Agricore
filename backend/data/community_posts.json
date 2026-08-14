@@ -1,0 +1,35 @@
+[
+ {
+  "id": "9eee96b30b9246078d7ed0a560b05ea8",
+  "author": "Ganesh Kumar",
+  "crop": "Cauliflower",
+  "title": "गोभी के फूल बंधी हुई नहीं आ रहे हैं. नई फुल पूरी इस तरह आ रही है",
+  "body": "फूल सही से नहीं बंध रहे हैं",
+  "location": "India",
+  "image": null,
+  "likes": 2,
+  "dislikes": 0,
+  "answers": [
+   {
+    "id": "dcc34f6b473740bca013155ed2822618",
+    "author": "Suresh",
+    "text": "बोरॉन की कमी हो सकती है, बोरेक्स 2 ग्राम/लीटर छिड़कें।",
+    "created_at": 1784278320.1596456
+   }
+  ],
+  "created_at": 1784278287.3109853
+ },
+ {
+  "id": "a880f6d1e53c440db601421aa6bc85fa",
+  "author": "Ravi",
+  "crop": "Bean",
+  "title": "Bean seedling leaves turning yellow, what should I do?",
+  "body": "Planted 2 weeks ago, leaves yellowing from edges",
+  "location": "India",
+  "image": null,
+  "likes": 18,
+  "dislikes": 6,
+  "answers": [],
+  "created_at": 1784278287.574724
+ }
+]
