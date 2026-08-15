@@ -26,7 +26,7 @@ frontend/vite.config.js.timestamp-*.mjs
 **/.env
 !*.env.example
 
-# Old Krishi-e legacy folders — not part of Agricore
+# Legacy folders — not part of Agricore source
 app/
 Disease Predictor/
 models/
