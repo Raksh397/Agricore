@@ -8,7 +8,7 @@
   "location": "India",
   "image": null,
   "likes": 2,
-  "dislikes": 0,
+  "dislikes": 2,
   "answers": [
    {
     "id": "dcc34f6b473740bca013155ed2822618",
@@ -28,7 +28,7 @@
   "location": "India",
   "image": null,
   "likes": 18,
-  "dislikes": 6,
+  "dislikes": 9,
   "answers": [],
   "created_at": 1784278287.574724
  }
