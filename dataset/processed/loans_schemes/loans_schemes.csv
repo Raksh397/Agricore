@@ -1,0 +1,9 @@
+id,title,provider,interest,amount,benefit,eligibility,link,split
+agri_term_loan,Agriculture Term Loan,Commercial & Cooperative Banks,9-12%,Based on project cost,"For tractors, pumpsets, land development, farm machinery (5-15 yr terms)",Farmers with land records,https://www.nabard.org,train
+aif_loan,Agriculture Infrastructure Fund,Ministry of Agriculture,3% interest subvention,Up to ₹2 crore,"For warehouses, cold storage, processing units","Farmers, FPOs, agri-entrepreneurs, startups",https://agriinfra.dac.gov.in,train
+kcc_loan,Kisan Credit Card (KCC),All Banks / RBI,7% (4% with prompt repayment),Up to ₹3 lakh,Short-term crop loans with interest subvention,"All farmers, tenant farmers, sharecroppers, SHGs",https://www.myscheme.gov.in/schemes/kcc,train
+tractor_loan,Tractor & Machinery Loan (SMAM),Banks + SMAM subsidy,9-11% + 40-50% subsidy,Up to 85% of cost,"Subsidy on tractors, tillers, harvesters via SMAM scheme",Small & marginal farmers priority,https://agrimachinery.nic.in,train
+gold_loan_agri,Agriculture Gold Loan,Banks & NBFCs,7-8.5%,Up to 75% of gold value,Instant credit against gold for farm needs,Any farmer with gold ornaments,https://www.sbi.co.in,train
+dairy_loan,Dairy Entrepreneurship Loan,NABARD,25-33% back-ended subsidy,Up to ₹7 lakh per unit,"For dairy units, milking machines, cold storage","Farmers, SHGs, dairy cooperatives",https://www.nabard.org,train
+kusum_loan,PM-KUSUM Solar Loan,MNRE + Banks,30% subsidy + 30% bank loan,Based on pump capacity,Farmer pays only ~40% for solar pumps,"Individual farmers, cooperatives, panchayats",https://pmkusum.mnre.gov.in,val
+shg_loan,SHG Bank Linkage Loan,NABARD / Banks,7% (with subvention),Up to ₹20 lakh per SHG,Collateral-free group loans for farm activities,Self Help Group members,https://www.nabard.org,test

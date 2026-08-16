@@ -1,0 +1,220 @@
+[
+ {
+  "dataset": "crop_recommendation",
+  "rows": 2200,
+  "columns": [
+   "n",
+   "p",
+   "k",
+   "temperature",
+   "humidity",
+   "ph",
+   "rainfall",
+   "crop",
+   "split"
+  ],
+  "source": "Harvestify GitHub + gireesh777 GitHub (2 independent sources, merged & deduped)",
+  "license": "Open (research/edu)",
+  "description": "N,P,K,temp,humidity,pH,rainfall -> best crop (22 crops)",
+  "splits": {
+   "train": 1760,
+   "val": 220,
+   "test": 220
+  }
+ },
+ {
+  "dataset": "fertilizer_ideal_npk",
+  "rows": 22,
+  "columns": [
+   "unnamed: 0",
+   "crop",
+   "n",
+   "p",
+   "k",
+   "ph",
+   "soil_moisture",
+   "split"
+  ],
+  "source": "Harvestify (GitHub)",
+  "license": "Open (research/edu)",
+  "description": "Ideal N,P,K per crop",
+  "splits": {
+   "train": 17,
+   "val": 2,
+   "test": 3
+  }
+ },
+ {
+  "dataset": "fertilizer_prediction",
+  "rows": 880,
+  "columns": [
+   "temparature",
+   "humidity",
+   "moisture",
+   "soil_type",
+   "crop_type",
+   "nitrogen",
+   "potassium",
+   "phosphorous",
+   "fertilizer_name",
+   "split"
+  ],
+  "source": "Kaggle Fertilizer Prediction schema (generated w/ agronomy rules)",
+  "license": "CC0 (synthetic)",
+  "description": "Soil, crop, NPK, temp, humidity, moisture -> fertilizer product name",
+  "splits": {
+   "train": 704,
+   "val": 88,
+   "test": 88
+  }
+ },
+ {
+  "dataset": "disease_treatments",
+  "rows": 71,
+  "columns": [
+   "class_name",
+   "crop",
+   "disease",
+   "treatment_html",
+   "cnn_scannable",
+   "split"
+  ],
+  "source": "PlantVillage taxonomy + ICAR/TNAU crop protection guidance (curated)",
+  "license": "CC BY-SA",
+  "description": "Disease & pest classes with symptoms, favourable conditions and treatment",
+  "splits": {
+   "train": 56,
+   "val": 7,
+   "test": 8
+  }
+ },
+ {
+  "dataset": "weather_20yr_india",
+  "rows": 76710,
+  "columns": [
+   "time",
+   "temperature_2m_mean",
+   "precipitation_sum",
+   "relative_humidity_2m_mean",
+   "city",
+   "split"
+  ],
+  "source": "Open-Meteo ERA5 archive",
+  "license": "CC BY 4.0",
+  "description": "Daily temp, rainfall, humidity 2004-2024 for 10 agri hubs (20+ yrs)",
+  "splits": {
+   "train": 61368,
+   "val": 7671,
+   "test": 7671
+  }
+ },
+ {
+  "dataset": "crop_yield_india",
+  "rows": 1980,
+  "columns": [
+   "state",
+   "crop",
+   "crop_year",
+   "yield_t_per_ha",
+   "season",
+   "split"
+  ],
+  "source": "ICAR productivity norms (compiled)",
+  "license": "Public domain facts",
+  "description": "State x crop x year average yield t/ha (2015-2025)",
+  "splits": {
+   "train": 1584,
+   "val": 198,
+   "test": 198
+  }
+ },
+ {
+  "dataset": "cultivation_guides",
+  "rows": 29,
+  "columns": [
+   "crop",
+   "temperature",
+   "rainfall",
+   "soil",
+   "ph",
+   "season",
+   "how_to_grow",
+   "split"
+  ],
+  "source": "ICAR/state agri university guidance (compiled)",
+  "license": "Public domain facts",
+  "description": "Per-crop growing requirements",
+  "splits": {
+   "train": 23,
+   "val": 3,
+   "test": 3
+  }
+ },
+ {
+  "dataset": "farmer_faq_rag",
+  "rows": 32,
+  "columns": [
+   "topic",
+   "question_keywords",
+   "answer",
+   "split"
+  ],
+  "source": "Agricore curated KB",
+  "license": "CC0",
+  "description": "Q&A knowledge for RAG/LLM",
+  "splits": {
+   "train": 25,
+   "val": 3,
+   "test": 4
+  }
+ },
+ {
+  "dataset": "loans_schemes",
+  "rows": 8,
+  "columns": [
+   "id",
+   "title",
+   "provider",
+   "interest",
+   "amount",
+   "benefit",
+   "eligibility",
+   "link",
+   "split"
+  ],
+  "source": "NABARD/RBI/Govt portals (facts)",
+  "license": "Public domain facts",
+  "description": "Farm loans with rates & eligibility",
+  "splits": {
+   "train": 6,
+   "val": 1,
+   "test": 1
+  }
+ },
+ {
+  "dataset": "market_prices",
+  "rows": 599177,
+  "columns": [
+   "state",
+   "district",
+   "market",
+   "variety",
+   "group",
+   "arrivals_tonnes",
+   "min_price",
+   "max_price",
+   "modal_price_rs_per_quintal",
+   "date",
+   "year",
+   "split"
+  ],
+  "source": "Agmarknet (via iancovert/Agmarknet GitHub mirror)",
+  "license": "OGDL India",
+  "description": "Rice arrivals & min/max/modal price by state/district/market, 2010-2016",
+  "splits": {
+   "train": 479341,
+   "val": 59918,
+   "test": 59918
+  }
+ }
+]

@@ -1,0 +1,1981 @@
+state,crop,crop_year,yield_t_per_ha,season,split
+Gujarat,Soybean,2024,1.25,Kharif,train
+Punjab,Potato,2016,18.76,Rabi,train
+Uttar Pradesh,Wheat,2025,3.92,Rabi,train
+West Bengal,Maize,2024,3.67,Kharif,train
+West Bengal,Onion,2018,17.66,Rabi,train
+West Bengal,Mustard,2015,1.21,Rabi,train
+Uttar Pradesh,Gram,2017,0.98,Rabi,train
+Uttar Pradesh,Onion,2022,15.39,Rabi,train
+West Bengal,Rice,2018,2.48,Kharif,train
+Punjab,Tomato,2018,26.64,Rabi,train
+Tamil Nadu,Jowar,2020,0.88,Kharif,train
+Tamil Nadu,Onion,2021,15.15,Rabi,train
+Gujarat,Potato,2019,25.0,Rabi,train
+Haryana,Onion,2020,19.75,Rabi,train
+West Bengal,Sugarcane,2015,82.09,Rabi,train
+Gujarat,Gram,2019,1.17,Rabi,train
+Andhra Pradesh,Banana,2024,38.27,Rabi,train
+Tamil Nadu,Bajra,2022,1.32,Kharif,train
+Karnataka,Banana,2020,34.63,Rabi,train
+Maharashtra,Onion,2025,18.58,Rabi,train
+Uttar Pradesh,Soybean,2018,0.9,Kharif,train
+Uttar Pradesh,Gram,2015,1.18,Rabi,train
+Andhra Pradesh,Mustard,2024,1.12,Rabi,train
+Andhra Pradesh,Rice,2021,2.51,Kharif,train
+Andhra Pradesh,Sugarcane,2016,81.6,Rabi,train
+Bihar,Cotton,2020,0.49,Kharif,train
+Madhya Pradesh,Mustard,2021,1.43,Rabi,train
+Bihar,Maize,2025,3.66,Kharif,train
+Maharashtra,Sugarcane,2024,56.05,Rabi,train
+Bihar,Mustard,2017,1.47,Rabi,train
+Haryana,Tomato,2015,29.34,Rabi,train
+Madhya Pradesh,Cotton,2015,0.53,Kharif,train
+Gujarat,Bajra,2020,1.42,Kharif,train
+Bihar,Sugarcane,2024,64.38,Rabi,train
+Madhya Pradesh,Jowar,2015,0.91,Kharif,train
+Haryana,Gram,2023,1.31,Rabi,train
+Tamil Nadu,Sugarcane,2021,80.44,Rabi,train
+Maharashtra,Onion,2022,17.33,Rabi,train
+Karnataka,Soybean,2017,0.94,Kharif,train
+Punjab,Tomato,2019,20.61,Rabi,train
+Punjab,Jowar,2022,0.94,Kharif,train
+Bihar,Potato,2021,18.86,Rabi,train
+Rajasthan,Jowar,2021,1.08,Kharif,train
+Andhra Pradesh,Potato,2016,21.04,Rabi,train
+Gujarat,Potato,2020,23.11,Rabi,train
+Karnataka,Bajra,2016,1.53,Kharif,train
+Rajasthan,Banana,2018,34.1,Rabi,train
+Andhra Pradesh,Bajra,2024,1.51,Kharif,train
+Andhra Pradesh,Wheat,2019,3.78,Rabi,train
+Haryana,Gram,2025,1.3,Rabi,train
+Andhra Pradesh,Jowar,2019,1.01,Kharif,train
+West Bengal,Gram,2019,1.21,Rabi,train
+Andhra Pradesh,Maize,2019,2.59,Kharif,train
+Bihar,Gram,2021,1.29,Rabi,train
+Karnataka,Bajra,2022,1.51,Kharif,train
+Karnataka,Jowar,2018,1.14,Kharif,train
+Maharashtra,Jowar,2017,1.1,Kharif,train
+Rajasthan,Cotton,2016,0.6,Kharif,train
+Gujarat,Gram,2021,0.92,Rabi,train
+Madhya Pradesh,Banana,2019,31.71,Rabi,train
+Uttar Pradesh,Maize,2017,2.65,Kharif,train
+Tamil Nadu,Rice,2024,2.57,Kharif,train
+Haryana,Bajra,2015,1.27,Kharif,train
+Madhya Pradesh,Bajra,2025,1.2,Kharif,train
+Uttar Pradesh,Maize,2016,3.66,Kharif,train
+Maharashtra,Tomato,2024,25.11,Rabi,train
+Tamil Nadu,Potato,2025,20.03,Rabi,train
+Haryana,Onion,2024,17.22,Rabi,train
+Haryana,Sugarcane,2018,67.24,Rabi,train
+Tamil Nadu,Cotton,2015,0.58,Kharif,train
+Karnataka,Sugarcane,2025,61.7,Rabi,train
+Gujarat,Groundnut,2024,1.66,Kharif,train
+Maharashtra,Tomato,2015,24.28,Rabi,train
+Madhya Pradesh,Jowar,2019,1.05,Kharif,train
+Karnataka,Cotton,2019,0.59,Kharif,train
+Madhya Pradesh,Potato,2022,19.75,Rabi,train
+Punjab,Bajra,2016,1.4,Kharif,train
+West Bengal,Jowar,2025,1.08,Kharif,train
+Haryana,Sugarcane,2016,83.21,Rabi,train
+Madhya Pradesh,Potato,2015,27.16,Rabi,train
+Bihar,Soybean,2024,1.29,Kharif,train
+Madhya Pradesh,Onion,2019,16.17,Rabi,train
+Punjab,Soybean,2015,0.95,Kharif,train
+Uttar Pradesh,Jowar,2017,1.12,Kharif,train
+Madhya Pradesh,Wheat,2024,3.22,Rabi,train
+Maharashtra,Bajra,2020,1.14,Kharif,train
+Bihar,Potato,2023,18.46,Rabi,train
+Bihar,Banana,2020,33.09,Rabi,train
+Bihar,Wheat,2017,3.32,Rabi,train
+Gujarat,Groundnut,2025,1.32,Kharif,train
+Rajasthan,Soybean,2015,1.24,Kharif,train
+Rajasthan,Wheat,2019,3.02,Rabi,train
+Karnataka,Mustard,2015,1.37,Rabi,train
+Gujarat,Maize,2025,2.69,Kharif,train
+Haryana,Soybean,2021,1.22,Kharif,train
+Haryana,Jowar,2018,1.18,Kharif,train
+West Bengal,Onion,2023,20.33,Rabi,train
+Tamil Nadu,Sugarcane,2017,59.22,Rabi,train
+Uttar Pradesh,Cotton,2018,0.41,Kharif,train
+Haryana,Potato,2015,19.74,Rabi,train
+Karnataka,Potato,2024,19.33,Rabi,train
+Maharashtra,Cotton,2022,0.54,Kharif,train
+Uttar Pradesh,Maize,2015,2.67,Kharif,train
+Andhra Pradesh,Soybean,2019,0.93,Kharif,train
+Karnataka,Potato,2016,21.41,Rabi,train
+West Bengal,Jowar,2021,1.16,Kharif,train
+Gujarat,Jowar,2021,1.13,Kharif,train
+West Bengal,Soybean,2020,1.08,Kharif,train
+Punjab,Potato,2025,22.6,Rabi,train
+Rajasthan,Cotton,2023,0.55,Kharif,train
+Tamil Nadu,Groundnut,2015,1.18,Kharif,train
+Maharashtra,Potato,2017,26.92,Rabi,train
+Rajasthan,Cotton,2019,0.42,Kharif,train
+Karnataka,Tomato,2016,26.39,Rabi,train
+Punjab,Maize,2022,3.3,Kharif,train
+Madhya Pradesh,Mustard,2025,1.33,Rabi,train
+Uttar Pradesh,Wheat,2024,3.69,Rabi,train
+Haryana,Tomato,2023,25.86,Rabi,train
+Gujarat,Banana,2021,35.77,Rabi,train
+West Bengal,Rice,2015,3.18,Kharif,train
+Karnataka,Wheat,2015,3.83,Rabi,train
+Karnataka,Gram,2020,1.21,Rabi,train
+West Bengal,Wheat,2024,3.93,Rabi,train
+Haryana,Mustard,2023,1.14,Rabi,train
+Andhra Pradesh,Mustard,2015,1.14,Rabi,train
+Gujarat,Sugarcane,2017,77.79,Rabi,train
+Uttar Pradesh,Cotton,2020,0.46,Kharif,train
+West Bengal,Mustard,2023,1.05,Rabi,train
+Tamil Nadu,Wheat,2019,3.94,Rabi,train
+Uttar Pradesh,Sugarcane,2015,65.72,Rabi,train
+Andhra Pradesh,Groundnut,2016,1.12,Kharif,train
+Bihar,Potato,2025,26.88,Rabi,train
+Punjab,Bajra,2025,1.24,Kharif,train
+Gujarat,Wheat,2018,3.37,Rabi,train
+Gujarat,Cotton,2017,0.54,Kharif,train
+Rajasthan,Sugarcane,2021,70.74,Rabi,train
+West Bengal,Maize,2023,3.6,Kharif,train
+Punjab,Gram,2018,1.26,Rabi,train
+Maharashtra,Cotton,2025,0.5,Kharif,train
+Bihar,Soybean,2022,1.05,Kharif,train
+Madhya Pradesh,Bajra,2016,1.17,Kharif,train
+West Bengal,Maize,2018,3.31,Kharif,train
+Gujarat,Wheat,2017,3.65,Rabi,train
+Madhya Pradesh,Mustard,2022,1.17,Rabi,train
+Punjab,Soybean,2025,1.13,Kharif,train
+Maharashtra,Maize,2016,2.58,Kharif,train
+West Bengal,Groundnut,2021,1.58,Kharif,train
+Rajasthan,Banana,2017,32.69,Rabi,train
+Uttar Pradesh,Sugarcane,2023,82.17,Rabi,train
+Maharashtra,Gram,2016,1.1,Rabi,train
+Tamil Nadu,Potato,2020,27.51,Rabi,train
+Madhya Pradesh,Tomato,2016,20.52,Rabi,train
+Bihar,Soybean,2023,1.14,Kharif,train
+Tamil Nadu,Bajra,2020,1.51,Kharif,train
+Gujarat,Potato,2016,19.33,Rabi,train
+Maharashtra,Onion,2019,17.89,Rabi,train
+West Bengal,Wheat,2021,3.76,Rabi,train
+Tamil Nadu,Cotton,2019,0.46,Kharif,train
+Madhya Pradesh,Groundnut,2023,1.15,Kharif,train
+Maharashtra,Sugarcane,2019,64.45,Rabi,train
+West Bengal,Rice,2022,3.05,Kharif,train
+Uttar Pradesh,Onion,2024,20.21,Rabi,train
+Rajasthan,Sugarcane,2022,61.2,Rabi,train
+Madhya Pradesh,Jowar,2021,0.81,Kharif,train
+West Bengal,Mustard,2024,1.41,Rabi,train
+Uttar Pradesh,Mustard,2022,1.38,Rabi,train
+Rajasthan,Banana,2016,31.37,Rabi,train
+Maharashtra,Wheat,2023,4.05,Rabi,train
+Karnataka,Bajra,2018,1.29,Kharif,train
+Rajasthan,Sugarcane,2023,68.19,Rabi,train
+Bihar,Cotton,2018,0.55,Kharif,train
+Punjab,Sugarcane,2020,64.06,Rabi,train
+Andhra Pradesh,Bajra,2019,1.08,Kharif,train
+Uttar Pradesh,Cotton,2019,0.44,Kharif,train
+Madhya Pradesh,Wheat,2018,3.53,Rabi,train
+Maharashtra,Gram,2018,1.26,Rabi,train
+Gujarat,Sugarcane,2015,61.13,Rabi,train
+Maharashtra,Groundnut,2015,1.37,Kharif,train
+Uttar Pradesh,Soybean,2024,1.21,Kharif,train
+Rajasthan,Groundnut,2015,1.59,Kharif,train
+Uttar Pradesh,Potato,2023,26.06,Rabi,train
+Haryana,Sugarcane,2017,67.08,Rabi,train
+Haryana,Groundnut,2018,1.12,Kharif,train
+Andhra Pradesh,Tomato,2016,23.68,Rabi,train
+Bihar,Wheat,2016,3.98,Rabi,train
+Punjab,Maize,2016,2.93,Kharif,train
+Madhya Pradesh,Soybean,2015,1.28,Kharif,train
+Punjab,Potato,2023,23.87,Rabi,train
+Uttar Pradesh,Bajra,2025,1.5,Kharif,train
+Haryana,Maize,2016,3.78,Kharif,train
+Gujarat,Wheat,2019,3.84,Rabi,train
+Gujarat,Bajra,2025,1.26,Kharif,train
+Tamil Nadu,Gram,2018,1.27,Rabi,train
+Bihar,Groundnut,2015,1.56,Kharif,train
+Andhra Pradesh,Banana,2021,33.38,Rabi,train
+Tamil Nadu,Mustard,2016,1.16,Rabi,train
+Andhra Pradesh,Rice,2019,2.51,Kharif,train
+Haryana,Maize,2024,3.64,Kharif,train
+Uttar Pradesh,Soybean,2025,1.17,Kharif,train
+Maharashtra,Tomato,2021,29.36,Rabi,train
+Karnataka,Banana,2022,29.8,Rabi,train
+Rajasthan,Cotton,2015,0.47,Kharif,train
+Uttar Pradesh,Onion,2019,16.72,Rabi,train
+Punjab,Soybean,2016,0.96,Kharif,train
+Maharashtra,Jowar,2018,0.97,Kharif,train
+Rajasthan,Soybean,2019,1.05,Kharif,train
+Andhra Pradesh,Sugarcane,2022,79.74,Rabi,train
+Bihar,Maize,2015,3.75,Kharif,train
+Tamil Nadu,Sugarcane,2022,71.55,Rabi,train
+Madhya Pradesh,Sugarcane,2023,62.2,Rabi,train
+Madhya Pradesh,Soybean,2023,0.9,Kharif,train
+Maharashtra,Groundnut,2025,1.53,Kharif,train
+Haryana,Tomato,2021,22.93,Rabi,train
+Gujarat,Mustard,2020,1.36,Rabi,train
+Gujarat,Soybean,2023,1.04,Kharif,train
+Madhya Pradesh,Cotton,2023,0.48,Kharif,train
+West Bengal,Soybean,2018,1.13,Kharif,train
+Maharashtra,Groundnut,2016,1.54,Kharif,train
+Madhya Pradesh,Sugarcane,2018,61.75,Rabi,train
+Punjab,Bajra,2020,1.07,Kharif,train
+Karnataka,Groundnut,2018,1.38,Kharif,train
+Karnataka,Groundnut,2016,1.35,Kharif,train
+Karnataka,Wheat,2020,4.04,Rabi,train
+Bihar,Bajra,2025,1.54,Kharif,train
+Uttar Pradesh,Mustard,2020,1.3,Rabi,train
+West Bengal,Groundnut,2017,1.56,Kharif,train
+Andhra Pradesh,Onion,2020,14.22,Rabi,train
+Gujarat,Mustard,2021,1.45,Rabi,train
+Maharashtra,Jowar,2019,0.97,Kharif,train
+Uttar Pradesh,Gram,2024,1.16,Rabi,train
+Rajasthan,Soybean,2024,1.1,Kharif,train
+Haryana,Tomato,2017,28.72,Rabi,train
+Haryana,Rice,2023,3.03,Kharif,train
+Gujarat,Jowar,2023,1.11,Kharif,train
+Andhra Pradesh,Tomato,2025,27.73,Rabi,train
+Uttar Pradesh,Soybean,2015,1.0,Kharif,train
+Bihar,Gram,2024,1.2,Rabi,train
+West Bengal,Banana,2019,40.13,Rabi,train
+Andhra Pradesh,Potato,2021,21.34,Rabi,train
+West Bengal,Rice,2024,2.81,Kharif,train
+Punjab,Onion,2016,13.75,Rabi,train
+Andhra Pradesh,Tomato,2020,28.51,Rabi,train
+West Bengal,Banana,2015,28.5,Rabi,train
+Punjab,Maize,2025,3.26,Kharif,train
+Karnataka,Bajra,2024,1.47,Kharif,train
+Haryana,Groundnut,2016,1.37,Kharif,train
+Haryana,Gram,2015,1.17,Rabi,train
+Rajasthan,Onion,2016,15.88,Rabi,train
+Punjab,Jowar,2018,0.82,Kharif,train
+Andhra Pradesh,Onion,2016,18.39,Rabi,train
+Gujarat,Soybean,2016,1.24,Kharif,train
+Rajasthan,Maize,2021,2.83,Kharif,train
+Punjab,Banana,2024,33.13,Rabi,train
+Haryana,Cotton,2020,0.56,Kharif,train
+Andhra Pradesh,Soybean,2020,1.16,Kharif,train
+Madhya Pradesh,Cotton,2016,0.48,Kharif,train
+Gujarat,Banana,2017,35.43,Rabi,train
+West Bengal,Onion,2016,18.95,Rabi,train
+Bihar,Jowar,2016,1.15,Kharif,train
+Rajasthan,Jowar,2024,1.09,Kharif,train
+Karnataka,Groundnut,2019,1.21,Kharif,train
+Karnataka,Onion,2016,16.43,Rabi,train
+Tamil Nadu,Wheat,2024,4.08,Rabi,train
+Gujarat,Cotton,2020,0.48,Kharif,train
+Haryana,Sugarcane,2024,81.34,Rabi,train
+Rajasthan,Groundnut,2022,1.37,Kharif,train
+Karnataka,Rice,2022,3.07,Kharif,train
+Rajasthan,Mustard,2024,1.53,Rabi,train
+Karnataka,Bajra,2017,1.55,Kharif,train
+Punjab,Potato,2019,23.67,Rabi,train
+Andhra Pradesh,Maize,2025,2.61,Kharif,train
+Rajasthan,Gram,2025,1.13,Rabi,train
+Punjab,Tomato,2022,29.93,Rabi,train
+Punjab,Banana,2023,31.66,Rabi,train
+Haryana,Gram,2016,1.22,Rabi,train
+Maharashtra,Potato,2019,26.69,Rabi,train
+Maharashtra,Cotton,2021,0.58,Kharif,train
+Andhra Pradesh,Onion,2017,17.26,Rabi,train
+Maharashtra,Groundnut,2017,1.48,Kharif,train
+Karnataka,Gram,2022,1.25,Rabi,train
+Punjab,Sugarcane,2016,72.08,Rabi,train
+Karnataka,Soybean,2021,0.93,Kharif,train
+Tamil Nadu,Rice,2025,3.19,Kharif,train
+Andhra Pradesh,Soybean,2024,1.23,Kharif,train
+Punjab,Tomato,2025,23.86,Rabi,train
+Rajasthan,Onion,2019,16.95,Rabi,train
+Gujarat,Onion,2017,18.35,Rabi,train
+Madhya Pradesh,Maize,2025,3.2,Kharif,train
+Bihar,Rice,2020,2.74,Kharif,train
+Uttar Pradesh,Mustard,2021,1.32,Rabi,train
+Gujarat,Sugarcane,2025,82.34,Rabi,train
+West Bengal,Mustard,2020,1.16,Rabi,train
+Punjab,Maize,2023,3.38,Kharif,train
+Tamil Nadu,Groundnut,2017,1.25,Kharif,train
+Haryana,Gram,2024,0.98,Rabi,train
+Maharashtra,Bajra,2021,1.09,Kharif,train
+Madhya Pradesh,Jowar,2016,0.8,Kharif,train
+Karnataka,Bajra,2023,1.36,Kharif,train
+Uttar Pradesh,Banana,2016,31.72,Rabi,train
+West Bengal,Maize,2016,2.9,Kharif,train
+Bihar,Tomato,2015,26.09,Rabi,train
+Uttar Pradesh,Wheat,2016,3.6,Rabi,train
+Bihar,Tomato,2021,26.27,Rabi,train
+Punjab,Sugarcane,2015,62.83,Rabi,train
+Andhra Pradesh,Tomato,2024,24.36,Rabi,train
+Haryana,Rice,2018,2.52,Kharif,train
+Haryana,Gram,2021,0.94,Rabi,train
+Rajasthan,Potato,2023,24.0,Rabi,train
+Uttar Pradesh,Potato,2024,24.9,Rabi,train
+Rajasthan,Groundnut,2016,1.33,Kharif,train
+Maharashtra,Groundnut,2023,1.31,Kharif,train
+Rajasthan,Soybean,2020,1.21,Kharif,train
+Uttar Pradesh,Maize,2024,2.73,Kharif,train
+Maharashtra,Soybean,2017,1.17,Kharif,train
+Tamil Nadu,Banana,2015,35.75,Rabi,train
+Gujarat,Sugarcane,2021,57.07,Rabi,train
+Karnataka,Banana,2021,29.5,Rabi,train
+Haryana,Banana,2020,36.73,Rabi,train
+Rajasthan,Cotton,2022,0.41,Kharif,train
+Haryana,Wheat,2024,3.43,Rabi,train
+Gujarat,Jowar,2024,0.86,Kharif,train
+Uttar Pradesh,Banana,2025,38.74,Rabi,train
+Andhra Pradesh,Gram,2021,1.13,Rabi,train
+Maharashtra,Maize,2024,2.83,Kharif,train
+Gujarat,Soybean,2015,1.16,Kharif,train
+Karnataka,Sugarcane,2015,58.96,Rabi,train
+Maharashtra,Maize,2025,3.3,Kharif,train
+Rajasthan,Jowar,2020,1.01,Kharif,train
+Tamil Nadu,Wheat,2015,2.99,Rabi,train
+Rajasthan,Groundnut,2024,1.19,Kharif,train
+Gujarat,Maize,2023,2.96,Kharif,train
+Karnataka,Jowar,2019,1.13,Kharif,train
+Maharashtra,Wheat,2016,3.77,Rabi,train
+West Bengal,Groundnut,2022,1.66,Kharif,train
+Tamil Nadu,Sugarcane,2024,80.71,Rabi,train
+Bihar,Soybean,2025,1.31,Kharif,train
+Punjab,Jowar,2017,1.05,Kharif,train
+Uttar Pradesh,Wheat,2018,2.93,Rabi,train
+Bihar,Sugarcane,2016,70.1,Rabi,train
+Bihar,Potato,2017,18.77,Rabi,train
+Rajasthan,Onion,2024,15.41,Rabi,train
+Rajasthan,Bajra,2017,1.05,Kharif,train
+West Bengal,Groundnut,2016,1.27,Kharif,train
+Uttar Pradesh,Rice,2016,2.45,Kharif,train
+Uttar Pradesh,Sugarcane,2024,58.98,Rabi,train
+Haryana,Maize,2022,3.36,Kharif,train
+Bihar,Gram,2022,0.99,Rabi,train
+Bihar,Rice,2019,2.7,Kharif,train
+West Bengal,Sugarcane,2018,74.97,Rabi,train
+Haryana,Banana,2018,28.25,Rabi,train
+Bihar,Potato,2022,21.16,Rabi,train
+Haryana,Soybean,2017,0.93,Kharif,train
+Uttar Pradesh,Mustard,2025,1.17,Rabi,train
+Punjab,Tomato,2016,29.45,Rabi,train
+Karnataka,Groundnut,2025,1.47,Kharif,train
+Rajasthan,Rice,2016,2.65,Kharif,train
+Andhra Pradesh,Mustard,2021,1.17,Rabi,train
+Gujarat,Soybean,2021,0.94,Kharif,train
+Gujarat,Potato,2018,23.38,Rabi,train
+Bihar,Onion,2018,14.29,Rabi,train
+Uttar Pradesh,Groundnut,2023,1.23,Kharif,train
+Maharashtra,Cotton,2016,0.5,Kharif,train
+Karnataka,Cotton,2018,0.52,Kharif,train
+Maharashtra,Rice,2015,2.83,Kharif,train
+Bihar,Gram,2016,1.2,Rabi,train
+Madhya Pradesh,Potato,2021,27.13,Rabi,train
+Gujarat,Banana,2018,38.39,Rabi,train
+Karnataka,Gram,2021,0.9,Rabi,train
+Rajasthan,Gram,2023,1.26,Rabi,train
+Bihar,Onion,2016,16.71,Rabi,train
+Bihar,Banana,2018,30.03,Rabi,train
+Uttar Pradesh,Groundnut,2024,1.4,Kharif,train
+Rajasthan,Bajra,2024,1.06,Kharif,train
+Maharashtra,Maize,2017,3.15,Kharif,train
+Madhya Pradesh,Rice,2025,2.85,Kharif,train
+Tamil Nadu,Soybean,2020,1.06,Kharif,train
+Karnataka,Potato,2022,23.44,Rabi,train
+Haryana,Groundnut,2023,1.43,Kharif,train
+Tamil Nadu,Potato,2022,21.71,Rabi,train
+Karnataka,Bajra,2020,1.52,Kharif,train
+Haryana,Tomato,2024,22.59,Rabi,train
+Madhya Pradesh,Gram,2015,1.05,Rabi,train
+West Bengal,Potato,2017,20.54,Rabi,train
+Bihar,Maize,2020,3.71,Kharif,train
+Tamil Nadu,Onion,2023,13.75,Rabi,train
+Tamil Nadu,Soybean,2015,0.95,Kharif,train
+Uttar Pradesh,Cotton,2017,0.43,Kharif,train
+Tamil Nadu,Rice,2018,2.25,Kharif,train
+Gujarat,Soybean,2020,1.12,Kharif,train
+Maharashtra,Onion,2015,16.14,Rabi,train
+Rajasthan,Maize,2022,3.17,Kharif,train
+Karnataka,Cotton,2016,0.44,Kharif,train
+Rajasthan,Groundnut,2019,1.45,Kharif,train
+Punjab,Tomato,2020,27.01,Rabi,train
+Bihar,Wheat,2022,3.69,Rabi,train
+Haryana,Groundnut,2021,1.39,Kharif,train
+Punjab,Sugarcane,2022,59.31,Rabi,train
+Haryana,Cotton,2015,0.53,Kharif,train
+Madhya Pradesh,Soybean,2021,1.24,Kharif,train
+Maharashtra,Gram,2019,0.98,Rabi,train
+Uttar Pradesh,Rice,2017,2.2,Kharif,train
+Gujarat,Maize,2017,3.55,Kharif,train
+Tamil Nadu,Mustard,2020,1.21,Rabi,train
+Uttar Pradesh,Soybean,2019,0.89,Kharif,train
+Andhra Pradesh,Jowar,2017,0.89,Kharif,train
+Karnataka,Soybean,2016,1.1,Kharif,train
+Karnataka,Sugarcane,2019,66.32,Rabi,train
+West Bengal,Potato,2022,22.78,Rabi,train
+Tamil Nadu,Soybean,2016,0.92,Kharif,train
+Bihar,Jowar,2021,1.09,Kharif,train
+Uttar Pradesh,Groundnut,2017,1.29,Kharif,train
+Andhra Pradesh,Banana,2020,29.42,Rabi,train
+Andhra Pradesh,Mustard,2016,1.2,Rabi,train
+Rajasthan,Gram,2024,0.94,Rabi,train
+Madhya Pradesh,Groundnut,2022,1.36,Kharif,train
+Madhya Pradesh,Sugarcane,2015,78.32,Rabi,train
+Uttar Pradesh,Tomato,2017,20.54,Rabi,train
+Karnataka,Maize,2017,3.4,Kharif,train
+Haryana,Maize,2020,2.81,Kharif,train
+Tamil Nadu,Bajra,2015,1.38,Kharif,train
+Karnataka,Jowar,2021,0.89,Kharif,train
+Gujarat,Potato,2015,23.18,Rabi,train
+Andhra Pradesh,Onion,2015,15.96,Rabi,train
+Tamil Nadu,Onion,2016,17.79,Rabi,train
+West Bengal,Wheat,2016,3.64,Rabi,train
+Punjab,Gram,2024,0.93,Rabi,train
+Punjab,Rice,2017,2.86,Kharif,train
+Tamil Nadu,Jowar,2017,1.02,Kharif,train
+Rajasthan,Cotton,2018,0.59,Kharif,train
+Tamil Nadu,Banana,2017,39.04,Rabi,train
+Uttar Pradesh,Rice,2024,2.44,Kharif,train
+Maharashtra,Bajra,2024,1.16,Kharif,train
+Maharashtra,Banana,2017,31.48,Rabi,train
+West Bengal,Banana,2021,29.96,Rabi,train
+Haryana,Soybean,2016,1.23,Kharif,train
+West Bengal,Bajra,2021,1.39,Kharif,train
+Madhya Pradesh,Sugarcane,2017,70.14,Rabi,train
+Andhra Pradesh,Cotton,2020,0.52,Kharif,train
+Haryana,Soybean,2022,1.1,Kharif,train
+Haryana,Wheat,2023,4.14,Rabi,train
+Gujarat,Soybean,2019,1.01,Kharif,train
+Haryana,Onion,2017,16.01,Rabi,train
+Maharashtra,Cotton,2017,0.59,Kharif,train
+Bihar,Gram,2018,1.16,Rabi,train
+West Bengal,Bajra,2023,1.27,Kharif,train
+Madhya Pradesh,Onion,2022,14.75,Rabi,train
+Rajasthan,Bajra,2015,1.32,Kharif,train
+Karnataka,Onion,2020,14.94,Rabi,train
+Gujarat,Maize,2015,3.48,Kharif,train
+Uttar Pradesh,Onion,2023,20.14,Rabi,train
+Haryana,Soybean,2024,1.21,Kharif,train
+Madhya Pradesh,Gram,2021,1.23,Rabi,train
+Gujarat,Mustard,2022,1.39,Rabi,train
+West Bengal,Sugarcane,2024,68.87,Rabi,train
+Haryana,Onion,2023,17.01,Rabi,train
+Uttar Pradesh,Onion,2021,16.63,Rabi,train
+Maharashtra,Soybean,2020,1.05,Kharif,train
+Andhra Pradesh,Gram,2020,1.22,Rabi,train
+Tamil Nadu,Potato,2024,22.47,Rabi,train
+Haryana,Mustard,2017,1.55,Rabi,train
+Maharashtra,Potato,2020,21.07,Rabi,train
+Uttar Pradesh,Sugarcane,2022,69.29,Rabi,train
+Uttar Pradesh,Banana,2017,38.21,Rabi,train
+Uttar Pradesh,Groundnut,2022,1.4,Kharif,train
+Andhra Pradesh,Maize,2016,2.66,Kharif,train
+West Bengal,Potato,2023,23.82,Rabi,train
+Madhya Pradesh,Onion,2023,13.62,Rabi,train
+Gujarat,Wheat,2025,3.12,Rabi,train
+Uttar Pradesh,Onion,2016,15.52,Rabi,train
+Rajasthan,Tomato,2021,20.66,Rabi,train
+West Bengal,Cotton,2016,0.57,Kharif,train
+Maharashtra,Bajra,2019,1.11,Kharif,train
+Rajasthan,Maize,2018,2.63,Kharif,train
+Gujarat,Mustard,2019,1.5,Rabi,train
+Karnataka,Onion,2017,19.48,Rabi,train
+Bihar,Mustard,2019,1.2,Rabi,train
+Maharashtra,Gram,2025,1.25,Rabi,train
+Haryana,Wheat,2021,3.16,Rabi,train
+Tamil Nadu,Tomato,2020,29.84,Rabi,train
+Bihar,Tomato,2018,29.1,Rabi,train
+Haryana,Rice,2020,3.04,Kharif,train
+Haryana,Jowar,2021,0.85,Kharif,train
+Rajasthan,Jowar,2018,1.04,Kharif,train
+Karnataka,Tomato,2024,23.12,Rabi,train
+Haryana,Gram,2018,0.95,Rabi,train
+Rajasthan,Cotton,2025,0.6,Kharif,train
+Bihar,Rice,2017,2.32,Kharif,train
+Maharashtra,Cotton,2019,0.56,Kharif,train
+Bihar,Mustard,2022,1.49,Rabi,train
+Gujarat,Sugarcane,2019,69.72,Rabi,train
+Rajasthan,Groundnut,2023,1.41,Kharif,train
+Haryana,Soybean,2023,1.13,Kharif,train
+Bihar,Gram,2023,1.3,Rabi,train
+West Bengal,Tomato,2025,21.06,Rabi,train
+Karnataka,Bajra,2019,1.07,Kharif,train
+Rajasthan,Wheat,2022,3.27,Rabi,train
+Uttar Pradesh,Mustard,2024,1.42,Rabi,train
+Uttar Pradesh,Groundnut,2019,1.12,Kharif,train
+Uttar Pradesh,Cotton,2023,0.46,Kharif,train
+Andhra Pradesh,Potato,2025,21.0,Rabi,train
+Karnataka,Banana,2023,34.03,Rabi,train
+Gujarat,Jowar,2018,1.17,Kharif,train
+Rajasthan,Tomato,2018,28.12,Rabi,train
+Madhya Pradesh,Sugarcane,2021,78.96,Rabi,train
+Tamil Nadu,Maize,2021,3.71,Kharif,train
+Maharashtra,Sugarcane,2020,59.94,Rabi,train
+Tamil Nadu,Soybean,2022,0.89,Kharif,train
+Haryana,Rice,2025,2.96,Kharif,train
+West Bengal,Bajra,2018,1.33,Kharif,train
+Madhya Pradesh,Groundnut,2024,1.39,Kharif,train
+Maharashtra,Banana,2016,41.61,Rabi,train
+Andhra Pradesh,Bajra,2018,1.5,Kharif,train
+Uttar Pradesh,Rice,2019,2.45,Kharif,train
+Andhra Pradesh,Groundnut,2017,1.39,Kharif,train
+Bihar,Mustard,2024,1.07,Rabi,train
+Gujarat,Wheat,2023,3.85,Rabi,train
+Maharashtra,Groundnut,2020,1.64,Kharif,train
+Punjab,Wheat,2019,3.11,Rabi,train
+West Bengal,Mustard,2021,1.11,Rabi,train
+Bihar,Groundnut,2020,1.3,Kharif,train
+West Bengal,Wheat,2023,4.05,Rabi,train
+Maharashtra,Groundnut,2022,1.38,Kharif,train
+Bihar,Gram,2017,0.92,Rabi,train
+Uttar Pradesh,Gram,2018,0.89,Rabi,train
+Haryana,Cotton,2016,0.56,Kharif,train
+West Bengal,Gram,2015,1.16,Rabi,train
+Bihar,Bajra,2016,1.25,Kharif,train
+Tamil Nadu,Jowar,2024,1.13,Kharif,train
+Andhra Pradesh,Jowar,2024,0.93,Kharif,train
+Tamil Nadu,Rice,2022,2.22,Kharif,train
+Andhra Pradesh,Wheat,2025,3.1,Rabi,train
+Gujarat,Potato,2025,27.12,Rabi,train
+West Bengal,Jowar,2015,1.2,Kharif,train
+Bihar,Mustard,2016,1.38,Rabi,train
+Maharashtra,Jowar,2016,1.15,Kharif,train
+Punjab,Cotton,2025,0.54,Kharif,train
+Haryana,Soybean,2025,1.28,Kharif,train
+Tamil Nadu,Groundnut,2022,1.39,Kharif,train
+Punjab,Soybean,2017,0.98,Kharif,train
+West Bengal,Mustard,2019,1.13,Rabi,train
+Gujarat,Rice,2025,2.84,Kharif,train
+Karnataka,Soybean,2023,1.23,Kharif,train
+Punjab,Soybean,2023,1.06,Kharif,train
+Karnataka,Bajra,2021,1.24,Kharif,train
+Maharashtra,Rice,2017,2.24,Kharif,train
+Rajasthan,Mustard,2017,1.47,Rabi,train
+Karnataka,Maize,2023,3.73,Kharif,train
+Madhya Pradesh,Tomato,2025,21.86,Rabi,train
+Maharashtra,Soybean,2023,0.97,Kharif,train
+Andhra Pradesh,Banana,2015,30.65,Rabi,train
+West Bengal,Soybean,2015,0.96,Kharif,train
+Maharashtra,Soybean,2019,1.13,Kharif,train
+Andhra Pradesh,Tomato,2022,20.31,Rabi,train
+Punjab,Tomato,2021,26.47,Rabi,train
+Madhya Pradesh,Tomato,2022,29.98,Rabi,train
+Andhra Pradesh,Sugarcane,2018,59.0,Rabi,train
+Andhra Pradesh,Jowar,2020,1.1,Kharif,train
+Maharashtra,Bajra,2023,1.09,Kharif,train
+Uttar Pradesh,Mustard,2023,1.07,Rabi,train
+Tamil Nadu,Tomato,2017,28.2,Rabi,train
+Maharashtra,Wheat,2015,3.74,Rabi,train
+Gujarat,Mustard,2018,1.13,Rabi,train
+Andhra Pradesh,Mustard,2020,1.12,Rabi,train
+Rajasthan,Banana,2015,32.74,Rabi,train
+Madhya Pradesh,Potato,2020,24.52,Rabi,train
+Bihar,Bajra,2021,1.05,Kharif,train
+Karnataka,Rice,2024,2.77,Kharif,train
+Haryana,Mustard,2018,1.47,Rabi,train
+Karnataka,Mustard,2021,1.27,Rabi,train
+Uttar Pradesh,Tomato,2024,28.41,Rabi,train
+Madhya Pradesh,Wheat,2023,2.81,Rabi,train
+Tamil Nadu,Gram,2024,1.08,Rabi,train
+Haryana,Mustard,2016,1.29,Rabi,train
+Haryana,Potato,2021,19.61,Rabi,train
+West Bengal,Maize,2025,3.29,Kharif,train
+Andhra Pradesh,Soybean,2022,1.23,Kharif,train
+Rajasthan,Wheat,2024,3.49,Rabi,train
+Madhya Pradesh,Gram,2025,1.15,Rabi,train
+Madhya Pradesh,Bajra,2019,1.22,Kharif,train
+Punjab,Mustard,2020,1.22,Rabi,train
+Maharashtra,Bajra,2017,1.56,Kharif,train
+Bihar,Gram,2015,1.26,Rabi,train
+Madhya Pradesh,Mustard,2019,1.08,Rabi,train
+Gujarat,Bajra,2018,1.14,Kharif,train
+Madhya Pradesh,Mustard,2024,1.06,Rabi,train
+Maharashtra,Onion,2018,19.12,Rabi,train
+Maharashtra,Potato,2022,22.01,Rabi,train
+Madhya Pradesh,Wheat,2022,3.64,Rabi,train
+West Bengal,Cotton,2023,0.56,Kharif,train
+Rajasthan,Mustard,2015,1.43,Rabi,train
+Andhra Pradesh,Bajra,2021,1.05,Kharif,train
+Rajasthan,Wheat,2016,4.02,Rabi,train
+Haryana,Jowar,2015,1.18,Kharif,train
+Bihar,Soybean,2019,1.28,Kharif,train
+Tamil Nadu,Onion,2015,14.62,Rabi,train
+Karnataka,Onion,2018,20.38,Rabi,train
+Gujarat,Jowar,2020,0.82,Kharif,train
+Bihar,Gram,2019,1.19,Rabi,train
+Bihar,Onion,2024,16.11,Rabi,train
+Tamil Nadu,Potato,2023,25.43,Rabi,train
+Andhra Pradesh,Gram,2016,1.17,Rabi,train
+Karnataka,Groundnut,2024,1.17,Kharif,train
+Bihar,Groundnut,2025,1.44,Kharif,train
+Madhya Pradesh,Jowar,2022,0.89,Kharif,train
+Andhra Pradesh,Cotton,2019,0.41,Kharif,train
+Gujarat,Rice,2021,2.59,Kharif,train
+Tamil Nadu,Sugarcane,2015,60.72,Rabi,train
+Karnataka,Groundnut,2023,1.63,Kharif,train
+Gujarat,Onion,2025,19.05,Rabi,train
+West Bengal,Cotton,2021,0.42,Kharif,train
+Uttar Pradesh,Banana,2024,37.57,Rabi,train
+Andhra Pradesh,Mustard,2022,1.21,Rabi,train
+Haryana,Bajra,2017,1.3,Kharif,train
+Rajasthan,Wheat,2018,3.38,Rabi,train
+Uttar Pradesh,Maize,2021,3.27,Kharif,train
+West Bengal,Rice,2025,3.22,Kharif,train
+Haryana,Tomato,2020,22.52,Rabi,train
+Maharashtra,Potato,2016,19.5,Rabi,train
+Rajasthan,Cotton,2017,0.6,Kharif,train
+West Bengal,Wheat,2018,3.4,Rabi,train
+Haryana,Cotton,2025,0.47,Kharif,train
+West Bengal,Bajra,2015,1.1,Kharif,train
+Bihar,Potato,2019,26.55,Rabi,train
+Punjab,Potato,2018,25.43,Rabi,train
+Bihar,Onion,2021,18.87,Rabi,train
+Rajasthan,Soybean,2021,0.91,Kharif,train
+Bihar,Tomato,2025,22.13,Rabi,train
+Uttar Pradesh,Cotton,2015,0.45,Kharif,train
+Maharashtra,Rice,2025,2.45,Kharif,train
+Maharashtra,Banana,2020,35.31,Rabi,train
+Tamil Nadu,Bajra,2025,1.07,Kharif,train
+Bihar,Soybean,2018,1.13,Kharif,train
+Andhra Pradesh,Sugarcane,2020,59.14,Rabi,train
+Madhya Pradesh,Banana,2018,41.83,Rabi,train
+Rajasthan,Onion,2025,14.87,Rabi,train
+Madhya Pradesh,Mustard,2018,1.45,Rabi,train
+Punjab,Bajra,2023,1.49,Kharif,train
+Andhra Pradesh,Onion,2025,18.78,Rabi,train
+Madhya Pradesh,Onion,2024,15.5,Rabi,train
+Maharashtra,Maize,2020,3.14,Kharif,train
+Maharashtra,Wheat,2022,2.97,Rabi,train
+Punjab,Onion,2019,14.4,Rabi,train
+Madhya Pradesh,Sugarcane,2016,76.7,Rabi,train
+Andhra Pradesh,Tomato,2019,25.04,Rabi,train
+Uttar Pradesh,Sugarcane,2021,61.3,Rabi,train
+Tamil Nadu,Wheat,2020,3.07,Rabi,train
+West Bengal,Maize,2015,2.56,Kharif,train
+Punjab,Onion,2022,14.48,Rabi,train
+West Bengal,Potato,2018,23.73,Rabi,train
+Haryana,Banana,2025,41.6,Rabi,train
+Punjab,Rice,2021,2.22,Kharif,train
+Madhya Pradesh,Bajra,2017,1.43,Kharif,train
+Tamil Nadu,Potato,2017,22.03,Rabi,train
+Karnataka,Potato,2023,18.98,Rabi,train
+West Bengal,Tomato,2018,25.64,Rabi,train
+Uttar Pradesh,Jowar,2015,1.05,Kharif,train
+Uttar Pradesh,Banana,2021,34.92,Rabi,train
+Gujarat,Mustard,2017,1.45,Rabi,train
+Haryana,Jowar,2016,0.9,Kharif,train
+Karnataka,Onion,2022,14.98,Rabi,train
+Rajasthan,Mustard,2022,1.31,Rabi,train
+Gujarat,Cotton,2015,0.48,Kharif,train
+Madhya Pradesh,Onion,2021,15.86,Rabi,train
+Rajasthan,Bajra,2020,1.13,Kharif,train
+Rajasthan,Wheat,2017,3.17,Rabi,train
+Rajasthan,Mustard,2016,1.13,Rabi,train
+Madhya Pradesh,Bajra,2022,1.36,Kharif,train
+Bihar,Tomato,2016,26.58,Rabi,train
+Andhra Pradesh,Soybean,2023,1.19,Kharif,train
+Rajasthan,Jowar,2015,1.08,Kharif,train
+West Bengal,Rice,2023,2.52,Kharif,train
+Haryana,Banana,2023,41.79,Rabi,train
+West Bengal,Bajra,2019,1.37,Kharif,train
+Madhya Pradesh,Mustard,2020,1.14,Rabi,train
+Tamil Nadu,Groundnut,2020,1.23,Kharif,train
+Tamil Nadu,Rice,2019,2.95,Kharif,train
+Gujarat,Tomato,2024,24.0,Rabi,train
+Haryana,Wheat,2016,3.52,Rabi,train
+Gujarat,Wheat,2015,3.45,Rabi,train
+Bihar,Groundnut,2018,1.29,Kharif,train
+Punjab,Onion,2024,16.26,Rabi,train
+Gujarat,Tomato,2022,20.57,Rabi,train
+Rajasthan,Potato,2025,20.92,Rabi,train
+Uttar Pradesh,Jowar,2021,1.13,Kharif,train
+West Bengal,Banana,2022,34.26,Rabi,train
+Punjab,Sugarcane,2025,60.26,Rabi,train
+Bihar,Rice,2016,2.66,Kharif,train
+Maharashtra,Mustard,2020,1.29,Rabi,train
+Madhya Pradesh,Wheat,2021,3.11,Rabi,train
+Haryana,Potato,2016,26.0,Rabi,train
+Punjab,Bajra,2018,1.36,Kharif,train
+Bihar,Bajra,2019,1.15,Kharif,train
+Bihar,Groundnut,2016,1.43,Kharif,train
+Andhra Pradesh,Tomato,2023,24.13,Rabi,train
+Haryana,Rice,2024,3.04,Kharif,train
+West Bengal,Soybean,2021,1.3,Kharif,train
+Maharashtra,Groundnut,2021,1.19,Kharif,train
+Bihar,Potato,2018,25.05,Rabi,train
+Punjab,Wheat,2022,3.61,Rabi,train
+Uttar Pradesh,Groundnut,2020,1.33,Kharif,train
+Gujarat,Rice,2023,2.91,Kharif,train
+Haryana,Bajra,2025,1.5,Kharif,train
+Bihar,Onion,2020,13.85,Rabi,train
+Uttar Pradesh,Groundnut,2025,1.12,Kharif,train
+Bihar,Rice,2024,2.67,Kharif,train
+Madhya Pradesh,Tomato,2019,28.98,Rabi,train
+Madhya Pradesh,Rice,2024,2.43,Kharif,train
+Punjab,Maize,2024,3.04,Kharif,train
+Rajasthan,Soybean,2016,1.26,Kharif,train
+Karnataka,Gram,2024,1.14,Rabi,train
+Haryana,Sugarcane,2020,76.29,Rabi,train
+Gujarat,Onion,2019,15.4,Rabi,train
+Haryana,Banana,2022,28.9,Rabi,train
+Maharashtra,Potato,2025,21.72,Rabi,train
+Andhra Pradesh,Banana,2025,34.09,Rabi,train
+Madhya Pradesh,Cotton,2022,0.47,Kharif,train
+Rajasthan,Jowar,2016,0.88,Kharif,train
+Andhra Pradesh,Maize,2015,3.36,Kharif,train
+Uttar Pradesh,Wheat,2015,4.09,Rabi,train
+Maharashtra,Gram,2017,1.16,Rabi,train
+Punjab,Mustard,2019,1.09,Rabi,train
+Andhra Pradesh,Maize,2023,2.74,Kharif,train
+Uttar Pradesh,Maize,2023,2.9,Kharif,train
+Punjab,Onion,2021,18.82,Rabi,train
+Punjab,Sugarcane,2019,76.42,Rabi,train
+Uttar Pradesh,Gram,2021,0.93,Rabi,train
+Punjab,Banana,2016,30.05,Rabi,train
+Madhya Pradesh,Groundnut,2019,1.32,Kharif,train
+West Bengal,Potato,2019,26.65,Rabi,train
+Andhra Pradesh,Jowar,2025,0.86,Kharif,train
+Gujarat,Tomato,2016,26.84,Rabi,train
+Andhra Pradesh,Cotton,2017,0.54,Kharif,train
+Bihar,Jowar,2023,0.82,Kharif,train
+Maharashtra,Rice,2020,2.96,Kharif,train
+Tamil Nadu,Wheat,2023,4.14,Rabi,train
+Haryana,Wheat,2018,2.84,Rabi,train
+Tamil Nadu,Sugarcane,2018,70.86,Rabi,train
+Tamil Nadu,Rice,2023,2.7,Kharif,train
+Madhya Pradesh,Soybean,2020,1.06,Kharif,train
+Karnataka,Potato,2021,25.72,Rabi,train
+Bihar,Jowar,2022,0.87,Kharif,train
+Maharashtra,Cotton,2015,0.43,Kharif,train
+Uttar Pradesh,Wheat,2020,3.76,Rabi,train
+Bihar,Tomato,2024,26.81,Rabi,train
+Rajasthan,Jowar,2019,1.03,Kharif,train
+Gujarat,Jowar,2015,1.05,Kharif,train
+Rajasthan,Gram,2020,1.06,Rabi,train
+Karnataka,Banana,2018,34.42,Rabi,train
+Maharashtra,Soybean,2022,0.95,Kharif,train
+Gujarat,Onion,2020,15.13,Rabi,train
+Haryana,Onion,2016,19.79,Rabi,train
+Gujarat,Maize,2020,3.43,Kharif,train
+Tamil Nadu,Tomato,2016,20.48,Rabi,train
+Gujarat,Gram,2023,0.98,Rabi,train
+Haryana,Mustard,2019,1.12,Rabi,train
+Uttar Pradesh,Soybean,2021,0.98,Kharif,train
+Rajasthan,Potato,2024,22.96,Rabi,train
+Karnataka,Onion,2019,16.07,Rabi,train
+Haryana,Mustard,2015,1.25,Rabi,train
+Uttar Pradesh,Soybean,2016,0.92,Kharif,train
+Madhya Pradesh,Rice,2015,2.65,Kharif,train
+Uttar Pradesh,Cotton,2022,0.55,Kharif,train
+Maharashtra,Tomato,2020,22.86,Rabi,train
+Gujarat,Groundnut,2019,1.57,Kharif,train
+Haryana,Wheat,2020,3.19,Rabi,train
+Rajasthan,Soybean,2018,1.19,Kharif,train
+Maharashtra,Jowar,2020,1.01,Kharif,train
+Tamil Nadu,Jowar,2022,1.0,Kharif,train
+Rajasthan,Cotton,2021,0.58,Kharif,train
+Andhra Pradesh,Sugarcane,2024,73.76,Rabi,train
+Gujarat,Onion,2024,15.09,Rabi,train
+Rajasthan,Rice,2023,2.22,Kharif,train
+Tamil Nadu,Tomato,2022,26.64,Rabi,train
+Haryana,Jowar,2025,0.83,Kharif,train
+Gujarat,Gram,2020,0.99,Rabi,train
+Uttar Pradesh,Jowar,2025,1.16,Kharif,train
+Andhra Pradesh,Gram,2015,1.25,Rabi,train
+Andhra Pradesh,Rice,2024,2.84,Kharif,train
+Uttar Pradesh,Sugarcane,2018,56.43,Rabi,train
+Tamil Nadu,Soybean,2017,1.16,Kharif,train
+Punjab,Soybean,2021,1.0,Kharif,train
+Punjab,Jowar,2020,0.88,Kharif,train
+Rajasthan,Onion,2023,19.53,Rabi,train
+Madhya Pradesh,Banana,2025,31.28,Rabi,train
+Uttar Pradesh,Maize,2018,3.66,Kharif,train
+Bihar,Bajra,2020,1.12,Kharif,train
+Madhya Pradesh,Maize,2015,3.79,Kharif,train
+Rajasthan,Banana,2024,28.75,Rabi,train
+Karnataka,Wheat,2024,4.19,Rabi,train
+Haryana,Sugarcane,2015,78.42,Rabi,train
+Karnataka,Maize,2025,2.94,Kharif,train
+Punjab,Gram,2023,1.04,Rabi,train
+Gujarat,Soybean,2018,1.09,Kharif,train
+Gujarat,Rice,2019,2.58,Kharif,train
+Rajasthan,Rice,2025,2.76,Kharif,train
+Bihar,Tomato,2022,26.96,Rabi,train
+Tamil Nadu,Groundnut,2021,1.47,Kharif,train
+Karnataka,Cotton,2022,0.49,Kharif,train
+Madhya Pradesh,Sugarcane,2022,62.46,Rabi,train
+Andhra Pradesh,Groundnut,2023,1.59,Kharif,train
+Karnataka,Wheat,2017,3.15,Rabi,train
+Bihar,Wheat,2024,3.65,Rabi,train
+Punjab,Rice,2025,2.24,Kharif,train
+West Bengal,Gram,2016,1.31,Rabi,train
+Tamil Nadu,Jowar,2016,0.8,Kharif,train
+Haryana,Bajra,2022,1.29,Kharif,train
+West Bengal,Jowar,2020,1.16,Kharif,train
+Haryana,Jowar,2020,0.85,Kharif,train
+Madhya Pradesh,Groundnut,2021,1.58,Kharif,train
+Maharashtra,Jowar,2025,1.19,Kharif,train
+Karnataka,Groundnut,2017,1.61,Kharif,train
+Bihar,Groundnut,2024,1.15,Kharif,train
+Punjab,Jowar,2023,0.82,Kharif,train
+Andhra Pradesh,Rice,2023,3.14,Kharif,train
+Haryana,Banana,2019,32.64,Rabi,train
+Tamil Nadu,Groundnut,2016,1.32,Kharif,train
+Madhya Pradesh,Banana,2020,29.18,Rabi,train
+Gujarat,Mustard,2024,1.45,Rabi,train
+Rajasthan,Maize,2025,2.82,Kharif,train
+Karnataka,Sugarcane,2020,59.96,Rabi,train
+Andhra Pradesh,Onion,2018,15.07,Rabi,train
+Madhya Pradesh,Cotton,2017,0.45,Kharif,train
+Haryana,Sugarcane,2021,60.76,Rabi,train
+Andhra Pradesh,Mustard,2018,1.48,Rabi,train
+Bihar,Sugarcane,2023,64.88,Rabi,train
+Punjab,Banana,2019,35.39,Rabi,train
+Gujarat,Rice,2018,2.38,Kharif,train
+Rajasthan,Rice,2015,2.84,Kharif,train
+Maharashtra,Gram,2022,1.06,Rabi,train
+Maharashtra,Wheat,2025,4.17,Rabi,train
+Rajasthan,Tomato,2024,27.22,Rabi,train
+Maharashtra,Soybean,2018,1.01,Kharif,train
+Haryana,Maize,2023,3.71,Kharif,train
+Bihar,Gram,2025,0.89,Rabi,train
+Karnataka,Wheat,2022,3.26,Rabi,train
+Uttar Pradesh,Onion,2018,15.59,Rabi,train
+Punjab,Groundnut,2023,1.32,Kharif,train
+Rajasthan,Potato,2017,20.06,Rabi,train
+Andhra Pradesh,Banana,2019,41.47,Rabi,train
+Punjab,Banana,2017,35.6,Rabi,train
+Uttar Pradesh,Groundnut,2016,1.66,Kharif,train
+West Bengal,Gram,2018,0.94,Rabi,train
+Uttar Pradesh,Mustard,2019,1.43,Rabi,train
+Tamil Nadu,Maize,2016,3.75,Kharif,train
+Madhya Pradesh,Rice,2023,2.3,Kharif,train
+Tamil Nadu,Cotton,2021,0.44,Kharif,train
+Rajasthan,Cotton,2020,0.46,Kharif,train
+Andhra Pradesh,Jowar,2023,0.94,Kharif,train
+Uttar Pradesh,Bajra,2022,1.37,Kharif,train
+Maharashtra,Potato,2018,24.96,Rabi,train
+Haryana,Wheat,2017,3.3,Rabi,train
+Uttar Pradesh,Potato,2020,24.73,Rabi,train
+Maharashtra,Onion,2021,20.0,Rabi,train
+Karnataka,Banana,2015,31.29,Rabi,train
+West Bengal,Cotton,2022,0.51,Kharif,train
+Andhra Pradesh,Bajra,2022,1.15,Kharif,train
+Bihar,Mustard,2015,1.05,Rabi,train
+West Bengal,Onion,2025,16.91,Rabi,train
+Madhya Pradesh,Banana,2021,29.35,Rabi,train
+Tamil Nadu,Wheat,2021,4.17,Rabi,train
+Gujarat,Tomato,2021,23.55,Rabi,train
+Gujarat,Rice,2015,2.37,Kharif,train
+Madhya Pradesh,Rice,2019,2.41,Kharif,train
+Punjab,Gram,2025,1.25,Rabi,train
+Bihar,Wheat,2020,2.91,Rabi,train
+Gujarat,Groundnut,2021,1.38,Kharif,train
+Karnataka,Cotton,2021,0.57,Kharif,train
+Uttar Pradesh,Groundnut,2018,1.32,Kharif,train
+Maharashtra,Gram,2024,1.3,Rabi,train
+Gujarat,Tomato,2020,29.84,Rabi,train
+Madhya Pradesh,Gram,2022,1.2,Rabi,train
+Bihar,Bajra,2022,1.04,Kharif,train
+Maharashtra,Bajra,2025,1.17,Kharif,train
+Haryana,Jowar,2023,0.83,Kharif,train
+Karnataka,Soybean,2022,1.1,Kharif,train
+Bihar,Cotton,2015,0.47,Kharif,train
+Rajasthan,Tomato,2017,27.08,Rabi,train
+Punjab,Groundnut,2015,1.17,Kharif,train
+Punjab,Cotton,2023,0.46,Kharif,train
+West Bengal,Gram,2017,0.9,Rabi,train
+Rajasthan,Groundnut,2025,1.52,Kharif,train
+Punjab,Jowar,2025,0.86,Kharif,train
+Karnataka,Mustard,2020,1.38,Rabi,train
+Bihar,Onion,2025,19.19,Rabi,train
+West Bengal,Jowar,2024,1.11,Kharif,train
+Rajasthan,Maize,2015,3.72,Kharif,train
+Gujarat,Rice,2024,2.7,Kharif,train
+Gujarat,Banana,2024,29.95,Rabi,train
+Punjab,Banana,2025,30.34,Rabi,train
+Madhya Pradesh,Potato,2024,20.36,Rabi,train
+Haryana,Jowar,2019,1.14,Kharif,train
+Rajasthan,Banana,2021,40.78,Rabi,train
+Bihar,Cotton,2016,0.49,Kharif,train
+Rajasthan,Potato,2022,19.2,Rabi,train
+Tamil Nadu,Rice,2015,2.71,Kharif,train
+Bihar,Potato,2015,24.24,Rabi,train
+Madhya Pradesh,Bajra,2023,1.18,Kharif,train
+Karnataka,Wheat,2018,3.14,Rabi,train
+Uttar Pradesh,Wheat,2022,2.9,Rabi,train
+Rajasthan,Soybean,2025,1.11,Kharif,train
+Maharashtra,Tomato,2025,21.9,Rabi,train
+Karnataka,Jowar,2017,0.96,Kharif,train
+Rajasthan,Sugarcane,2024,81.54,Rabi,train
+Gujarat,Gram,2016,0.89,Rabi,train
+Bihar,Groundnut,2017,1.26,Kharif,train
+Andhra Pradesh,Mustard,2019,1.12,Rabi,train
+Andhra Pradesh,Wheat,2022,3.81,Rabi,train
+Uttar Pradesh,Jowar,2022,1.12,Kharif,train
+Uttar Pradesh,Sugarcane,2016,56.51,Rabi,train
+West Bengal,Tomato,2020,25.17,Rabi,train
+Uttar Pradesh,Rice,2018,3.0,Kharif,train
+West Bengal,Cotton,2015,0.45,Kharif,train
+West Bengal,Groundnut,2020,1.55,Kharif,train
+Gujarat,Jowar,2016,1.06,Kharif,train
+Madhya Pradesh,Banana,2017,40.37,Rabi,train
+Tamil Nadu,Bajra,2018,1.42,Kharif,train
+Karnataka,Mustard,2023,1.05,Rabi,train
+Rajasthan,Maize,2017,3.81,Kharif,train
+Gujarat,Rice,2017,2.28,Kharif,train
+Karnataka,Banana,2024,29.28,Rabi,train
+Karnataka,Onion,2023,13.64,Rabi,train
+Rajasthan,Groundnut,2021,1.41,Kharif,train
+Tamil Nadu,Jowar,2018,1.18,Kharif,train
+Haryana,Banana,2024,39.04,Rabi,train
+Rajasthan,Onion,2015,19.11,Rabi,train
+Haryana,Mustard,2025,1.42,Rabi,train
+Bihar,Maize,2022,3.48,Kharif,train
+Gujarat,Maize,2016,3.69,Kharif,train
+West Bengal,Onion,2020,17.13,Rabi,train
+Haryana,Rice,2017,3.0,Kharif,train
+Punjab,Wheat,2016,3.39,Rabi,train
+Rajasthan,Groundnut,2018,1.33,Kharif,train
+Haryana,Rice,2021,3.22,Kharif,train
+Maharashtra,Banana,2015,39.98,Rabi,train
+West Bengal,Bajra,2022,1.24,Kharif,train
+Haryana,Groundnut,2022,1.53,Kharif,train
+Andhra Pradesh,Tomato,2015,27.16,Rabi,train
+Gujarat,Tomato,2023,22.74,Rabi,train
+Karnataka,Tomato,2025,25.67,Rabi,train
+Madhya Pradesh,Wheat,2016,2.96,Rabi,train
+Haryana,Groundnut,2020,1.22,Kharif,train
+Karnataka,Wheat,2023,3.35,Rabi,train
+Karnataka,Cotton,2024,0.56,Kharif,train
+Andhra Pradesh,Maize,2020,2.7,Kharif,train
+Punjab,Gram,2021,0.99,Rabi,train
+Karnataka,Tomato,2017,20.91,Rabi,train
+Rajasthan,Rice,2020,2.84,Kharif,train
+Maharashtra,Sugarcane,2025,77.02,Rabi,train
+Tamil Nadu,Maize,2025,3.2,Kharif,train
+Bihar,Maize,2019,3.18,Kharif,train
+Andhra Pradesh,Tomato,2017,23.21,Rabi,train
+Andhra Pradesh,Rice,2025,2.91,Kharif,train
+Maharashtra,Potato,2023,27.59,Rabi,train
+Punjab,Gram,2022,1.03,Rabi,train
+West Bengal,Tomato,2016,27.01,Rabi,train
+Maharashtra,Cotton,2018,0.43,Kharif,train
+Haryana,Potato,2019,21.62,Rabi,train
+Madhya Pradesh,Potato,2023,22.02,Rabi,train
+Madhya Pradesh,Jowar,2020,1.18,Kharif,train
+West Bengal,Sugarcane,2022,77.03,Rabi,train
+Karnataka,Mustard,2025,1.29,Rabi,train
+Uttar Pradesh,Onion,2017,15.25,Rabi,train
+Haryana,Banana,2021,35.17,Rabi,train
+Tamil Nadu,Groundnut,2024,1.64,Kharif,train
+Haryana,Gram,2017,1.27,Rabi,train
+Andhra Pradesh,Groundnut,2019,1.57,Kharif,train
+Tamil Nadu,Gram,2021,0.88,Rabi,train
+Punjab,Maize,2018,2.71,Kharif,train
+Rajasthan,Maize,2019,3.71,Kharif,train
+Madhya Pradesh,Sugarcane,2025,64.26,Rabi,train
+Bihar,Potato,2024,20.15,Rabi,train
+Haryana,Maize,2021,2.82,Kharif,train
+Uttar Pradesh,Bajra,2015,1.41,Kharif,train
+Maharashtra,Onion,2016,20.1,Rabi,train
+Karnataka,Jowar,2015,1.11,Kharif,train
+Maharashtra,Rice,2023,2.17,Kharif,train
+Maharashtra,Bajra,2015,1.15,Kharif,train
+Andhra Pradesh,Rice,2020,3.11,Kharif,train
+Tamil Nadu,Banana,2022,31.04,Rabi,train
+West Bengal,Bajra,2024,1.12,Kharif,train
+Karnataka,Wheat,2025,3.51,Rabi,train
+Punjab,Rice,2018,2.24,Kharif,train
+Tamil Nadu,Mustard,2019,1.06,Rabi,train
+Andhra Pradesh,Potato,2015,24.21,Rabi,train
+Uttar Pradesh,Gram,2020,1.04,Rabi,train
+Haryana,Banana,2017,34.17,Rabi,train
+Punjab,Rice,2020,2.55,Kharif,train
+Haryana,Potato,2017,27.42,Rabi,train
+Gujarat,Cotton,2021,0.49,Kharif,train
+Maharashtra,Sugarcane,2023,79.53,Rabi,train
+Haryana,Potato,2023,27.33,Rabi,train
+Punjab,Cotton,2021,0.52,Kharif,train
+Maharashtra,Sugarcane,2018,68.62,Rabi,train
+Haryana,Onion,2015,14.49,Rabi,train
+Karnataka,Tomato,2022,23.08,Rabi,train
+Tamil Nadu,Jowar,2025,0.87,Kharif,train
+Punjab,Gram,2019,1.15,Rabi,train
+Andhra Pradesh,Maize,2017,3.73,Kharif,train
+West Bengal,Groundnut,2015,1.44,Kharif,train
+Bihar,Tomato,2020,26.17,Rabi,train
+Tamil Nadu,Wheat,2018,3.82,Rabi,train
+Karnataka,Rice,2019,3.07,Kharif,train
+Uttar Pradesh,Bajra,2020,1.12,Kharif,train
+Karnataka,Wheat,2021,3.61,Rabi,train
+West Bengal,Banana,2023,29.36,Rabi,train
+Gujarat,Onion,2021,18.64,Rabi,train
+Andhra Pradesh,Cotton,2023,0.56,Kharif,train
+West Bengal,Banana,2018,41.08,Rabi,train
+Maharashtra,Onion,2024,13.94,Rabi,train
+West Bengal,Groundnut,2024,1.14,Kharif,train
+Rajasthan,Gram,2017,1.1,Rabi,train
+Madhya Pradesh,Rice,2016,2.76,Kharif,train
+Uttar Pradesh,Soybean,2022,1.14,Kharif,train
+Rajasthan,Maize,2016,2.71,Kharif,train
+Uttar Pradesh,Sugarcane,2017,63.01,Rabi,train
+Gujarat,Gram,2024,1.22,Rabi,train
+Karnataka,Gram,2023,0.93,Rabi,train
+Andhra Pradesh,Cotton,2025,0.41,Kharif,train
+Haryana,Mustard,2021,1.31,Rabi,train
+West Bengal,Tomato,2019,24.02,Rabi,train
+Uttar Pradesh,Bajra,2017,1.24,Kharif,train
+Tamil Nadu,Mustard,2015,1.28,Rabi,train
+Haryana,Banana,2015,28.27,Rabi,train
+Haryana,Bajra,2021,1.32,Kharif,train
+Madhya Pradesh,Maize,2024,2.59,Kharif,train
+Bihar,Rice,2018,2.69,Kharif,train
+Uttar Pradesh,Groundnut,2021,1.39,Kharif,train
+Maharashtra,Soybean,2015,1.31,Kharif,train
+Rajasthan,Jowar,2022,0.84,Kharif,train
+Maharashtra,Jowar,2021,0.95,Kharif,train
+Bihar,Jowar,2015,0.84,Kharif,train
+Tamil Nadu,Cotton,2025,0.58,Kharif,train
+Haryana,Potato,2022,18.53,Rabi,train
+Tamil Nadu,Bajra,2021,1.06,Kharif,train
+Andhra Pradesh,Banana,2022,41.77,Rabi,train
+Rajasthan,Tomato,2020,22.02,Rabi,train
+Punjab,Tomato,2015,28.4,Rabi,train
+Punjab,Maize,2017,2.74,Kharif,train
+Punjab,Mustard,2016,1.28,Rabi,train
+Maharashtra,Cotton,2023,0.45,Kharif,train
+Madhya Pradesh,Mustard,2023,1.07,Rabi,train
+Andhra Pradesh,Wheat,2018,3.98,Rabi,train
+Punjab,Onion,2023,15.28,Rabi,train
+West Bengal,Wheat,2025,3.2,Rabi,train
+Bihar,Onion,2015,18.14,Rabi,train
+West Bengal,Gram,2020,1.29,Rabi,train
+West Bengal,Mustard,2022,1.39,Rabi,train
+Gujarat,Cotton,2019,0.45,Kharif,train
+Tamil Nadu,Gram,2025,1.21,Rabi,train
+Uttar Pradesh,Maize,2025,3.23,Kharif,train
+West Bengal,Rice,2017,2.77,Kharif,train
+Andhra Pradesh,Groundnut,2024,1.27,Kharif,train
+Tamil Nadu,Cotton,2018,0.5,Kharif,train
+Tamil Nadu,Cotton,2022,0.43,Kharif,train
+Gujarat,Maize,2018,3.46,Kharif,train
+Gujarat,Wheat,2024,3.39,Rabi,train
+Andhra Pradesh,Banana,2023,39.13,Rabi,train
+Madhya Pradesh,Rice,2020,3.15,Kharif,train
+Uttar Pradesh,Cotton,2016,0.42,Kharif,train
+Punjab,Onion,2015,18.15,Rabi,train
+Punjab,Maize,2020,3.6,Kharif,train
+Gujarat,Soybean,2017,1.24,Kharif,train
+Maharashtra,Maize,2023,3.77,Kharif,train
+Rajasthan,Rice,2017,2.53,Kharif,train
+Punjab,Potato,2015,22.9,Rabi,train
+Maharashtra,Mustard,2015,1.49,Rabi,train
+Haryana,Gram,2020,1.17,Rabi,train
+Madhya Pradesh,Potato,2018,20.45,Rabi,train
+Maharashtra,Jowar,2023,0.82,Kharif,train
+Punjab,Rice,2022,2.71,Kharif,train
+Madhya Pradesh,Mustard,2015,1.21,Rabi,train
+Tamil Nadu,Potato,2019,20.84,Rabi,train
+Uttar Pradesh,Rice,2021,2.62,Kharif,train
+Punjab,Sugarcane,2018,80.5,Rabi,train
+Gujarat,Mustard,2016,1.51,Rabi,train
+Punjab,Soybean,2022,0.88,Kharif,train
+Uttar Pradesh,Wheat,2023,4.11,Rabi,train
+Haryana,Tomato,2022,22.41,Rabi,train
+Haryana,Sugarcane,2019,82.51,Rabi,train
+Andhra Pradesh,Onion,2022,14.76,Rabi,train
+Rajasthan,Mustard,2023,1.25,Rabi,train
+Madhya Pradesh,Gram,2016,0.99,Rabi,train
+Tamil Nadu,Jowar,2015,1.11,Kharif,train
+Bihar,Onion,2019,14.83,Rabi,train
+West Bengal,Rice,2020,3.21,Kharif,train
+Maharashtra,Maize,2021,2.9,Kharif,train
+Haryana,Tomato,2016,24.34,Rabi,train
+Maharashtra,Mustard,2021,1.35,Rabi,train
+Bihar,Rice,2022,2.17,Kharif,train
+Maharashtra,Cotton,2020,0.5,Kharif,train
+Bihar,Rice,2023,3.07,Kharif,train
+Maharashtra,Soybean,2024,1.28,Kharif,train
+Rajasthan,Potato,2020,20.21,Rabi,train
+Tamil Nadu,Onion,2022,18.04,Rabi,train
+Andhra Pradesh,Gram,2017,1.21,Rabi,train
+Punjab,Potato,2020,26.45,Rabi,train
+West Bengal,Potato,2021,23.2,Rabi,train
+Punjab,Groundnut,2019,1.58,Kharif,train
+Madhya Pradesh,Rice,2021,2.86,Kharif,train
+Haryana,Bajra,2020,1.28,Kharif,train
+Tamil Nadu,Bajra,2017,1.53,Kharif,train
+Uttar Pradesh,Maize,2022,3.75,Kharif,train
+Tamil Nadu,Jowar,2021,1.04,Kharif,train
+Andhra Pradesh,Rice,2017,3.18,Kharif,train
+Karnataka,Maize,2015,2.86,Kharif,train
+Gujarat,Cotton,2024,0.54,Kharif,train
+Punjab,Bajra,2015,1.54,Kharif,train
+Punjab,Cotton,2024,0.56,Kharif,train
+Punjab,Jowar,2019,0.83,Kharif,train
+Haryana,Cotton,2021,0.55,Kharif,train
+Punjab,Sugarcane,2023,67.71,Rabi,train
+Maharashtra,Sugarcane,2021,65.63,Rabi,train
+Punjab,Tomato,2017,24.74,Rabi,train
+Tamil Nadu,Gram,2017,0.9,Rabi,train
+Bihar,Sugarcane,2017,63.61,Rabi,train
+Haryana,Wheat,2022,3.77,Rabi,train
+Punjab,Gram,2020,0.95,Rabi,train
+Karnataka,Tomato,2023,29.53,Rabi,train
+Madhya Pradesh,Gram,2019,1.29,Rabi,train
+Punjab,Gram,2015,0.92,Rabi,train
+Punjab,Onion,2018,14.74,Rabi,train
+Bihar,Cotton,2021,0.48,Kharif,train
+Maharashtra,Sugarcane,2017,69.77,Rabi,train
+West Bengal,Bajra,2020,1.54,Kharif,train
+Karnataka,Banana,2019,30.51,Rabi,train
+Haryana,Rice,2015,2.99,Kharif,train
+Haryana,Onion,2021,16.46,Rabi,train
+Uttar Pradesh,Bajra,2021,1.42,Kharif,train
+West Bengal,Tomato,2022,20.45,Rabi,train
+Karnataka,Cotton,2015,0.42,Kharif,train
+Bihar,Jowar,2017,0.85,Kharif,train
+Punjab,Groundnut,2024,1.62,Kharif,train
+Rajasthan,Gram,2021,0.94,Rabi,train
+Madhya Pradesh,Onion,2015,19.96,Rabi,train
+Andhra Pradesh,Onion,2023,13.61,Rabi,train
+Punjab,Soybean,2018,0.98,Kharif,train
+Uttar Pradesh,Soybean,2020,1.01,Kharif,train
+Punjab,Tomato,2023,28.22,Rabi,train
+West Bengal,Jowar,2018,0.9,Kharif,train
+Andhra Pradesh,Cotton,2016,0.53,Kharif,train
+Karnataka,Groundnut,2020,1.13,Kharif,train
+West Bengal,Sugarcane,2025,58.46,Rabi,train
+West Bengal,Rice,2019,2.23,Kharif,train
+Bihar,Bajra,2024,1.1,Kharif,train
+Madhya Pradesh,Soybean,2018,1.27,Kharif,train
+Karnataka,Banana,2025,34.19,Rabi,train
+Uttar Pradesh,Potato,2018,22.02,Rabi,train
+Haryana,Tomato,2019,22.11,Rabi,train
+Bihar,Rice,2021,3.09,Kharif,train
+Haryana,Soybean,2018,1.13,Kharif,train
+Andhra Pradesh,Wheat,2024,3.23,Rabi,train
+Punjab,Bajra,2022,1.45,Kharif,train
+Rajasthan,Bajra,2016,1.32,Kharif,train
+Madhya Pradesh,Wheat,2017,2.9,Rabi,train
+Haryana,Onion,2022,19.84,Rabi,train
+Rajasthan,Gram,2022,1.14,Rabi,train
+Rajasthan,Banana,2020,39.26,Rabi,train
+Punjab,Groundnut,2021,1.28,Kharif,train
+Punjab,Cotton,2015,0.41,Kharif,train
+Gujarat,Jowar,2022,1.16,Kharif,train
+West Bengal,Rice,2016,3.01,Kharif,train
+Uttar Pradesh,Bajra,2023,1.06,Kharif,train
+Madhya Pradesh,Potato,2016,22.96,Rabi,train
+Andhra Pradesh,Groundnut,2021,1.4,Kharif,train
+Bihar,Wheat,2021,3.69,Rabi,train
+Punjab,Rice,2015,2.51,Kharif,train
+Gujarat,Cotton,2022,0.52,Kharif,train
+Tamil Nadu,Bajra,2016,1.27,Kharif,train
+Tamil Nadu,Bajra,2023,1.25,Kharif,train
+Gujarat,Maize,2024,3.36,Kharif,train
+Punjab,Onion,2020,14.0,Rabi,train
+Andhra Pradesh,Bajra,2023,1.18,Kharif,train
+Madhya Pradesh,Wheat,2020,3.34,Rabi,train
+Gujarat,Bajra,2021,1.19,Kharif,train
+Tamil Nadu,Potato,2016,24.19,Rabi,train
+Madhya Pradesh,Bajra,2015,1.52,Kharif,train
+Rajasthan,Banana,2019,41.74,Rabi,train
+Andhra Pradesh,Bajra,2015,1.22,Kharif,train
+Bihar,Onion,2017,18.79,Rabi,train
+Gujarat,Mustard,2025,1.48,Rabi,train
+Uttar Pradesh,Tomato,2023,20.84,Rabi,train
+West Bengal,Potato,2020,26.54,Rabi,train
+Andhra Pradesh,Jowar,2022,1.06,Kharif,train
+Gujarat,Potato,2024,22.18,Rabi,train
+Punjab,Soybean,2020,1.14,Kharif,train
+Madhya Pradesh,Maize,2021,3.79,Kharif,train
+Andhra Pradesh,Gram,2018,0.95,Rabi,train
+Karnataka,Rice,2016,2.83,Kharif,train
+Punjab,Potato,2022,24.8,Rabi,train
+Karnataka,Maize,2020,3.17,Kharif,train
+Gujarat,Wheat,2022,3.6,Rabi,train
+Haryana,Potato,2018,24.45,Rabi,train
+Punjab,Mustard,2017,1.29,Rabi,train
+Tamil Nadu,Groundnut,2025,1.26,Kharif,train
+Uttar Pradesh,Cotton,2025,0.44,Kharif,train
+Gujarat,Onion,2023,17.18,Rabi,train
+Tamil Nadu,Mustard,2024,1.41,Rabi,train
+West Bengal,Banana,2020,40.44,Rabi,train
+West Bengal,Groundnut,2023,1.26,Kharif,train
+Rajasthan,Onion,2017,19.32,Rabi,train
+Andhra Pradesh,Soybean,2016,0.97,Kharif,train
+Punjab,Rice,2024,2.63,Kharif,train
+Uttar Pradesh,Bajra,2024,1.47,Kharif,train
+Madhya Pradesh,Sugarcane,2019,83.16,Rabi,train
+Haryana,Groundnut,2017,1.22,Kharif,train
+Karnataka,Potato,2017,24.64,Rabi,train
+Uttar Pradesh,Potato,2019,23.06,Rabi,train
+Karnataka,Onion,2021,18.55,Rabi,train
+Karnataka,Soybean,2015,1.04,Kharif,train
+Rajasthan,Mustard,2018,1.53,Rabi,train
+West Bengal,Groundnut,2019,1.65,Kharif,train
+Uttar Pradesh,Jowar,2024,1.03,Kharif,train
+West Bengal,Soybean,2024,1.14,Kharif,train
+Andhra Pradesh,Wheat,2017,3.46,Rabi,train
+Karnataka,Gram,2016,1.2,Rabi,train
+Maharashtra,Rice,2021,2.49,Kharif,train
+Madhya Pradesh,Onion,2017,13.82,Rabi,train
+Rajasthan,Wheat,2021,3.98,Rabi,train
+Karnataka,Cotton,2025,0.59,Kharif,train
+Madhya Pradesh,Tomato,2020,28.84,Rabi,train
+Maharashtra,Sugarcane,2015,56.7,Rabi,train
+Andhra Pradesh,Sugarcane,2017,82.44,Rabi,train
+Madhya Pradesh,Cotton,2019,0.59,Kharif,train
+Bihar,Wheat,2025,3.76,Rabi,train
+Gujarat,Cotton,2023,0.48,Kharif,train
+Tamil Nadu,Banana,2016,34.1,Rabi,train
+Tamil Nadu,Cotton,2023,0.59,Kharif,train
+Uttar Pradesh,Cotton,2024,0.5,Kharif,train
+Madhya Pradesh,Rice,2022,2.49,Kharif,train
+Bihar,Maize,2018,3.21,Kharif,train
+Uttar Pradesh,Maize,2020,2.99,Kharif,train
+Karnataka,Gram,2025,1.12,Rabi,train
+Madhya Pradesh,Jowar,2017,1.1,Kharif,train
+Madhya Pradesh,Tomato,2024,23.29,Rabi,train
+Tamil Nadu,Sugarcane,2016,77.98,Rabi,train
+Karnataka,Mustard,2017,1.26,Rabi,train
+Bihar,Maize,2017,3.82,Kharif,train
+Gujarat,Mustard,2023,1.5,Rabi,train
+Rajasthan,Soybean,2022,1.26,Kharif,train
+Gujarat,Banana,2016,37.7,Rabi,train
+West Bengal,Maize,2020,3.7,Kharif,train
+West Bengal,Sugarcane,2020,61.78,Rabi,train
+Andhra Pradesh,Onion,2019,19.46,Rabi,train
+Karnataka,Potato,2020,20.27,Rabi,train
+Punjab,Onion,2017,16.74,Rabi,train
+Andhra Pradesh,Wheat,2021,3.41,Rabi,train
+Madhya Pradesh,Banana,2015,32.56,Rabi,train
+Andhra Pradesh,Bajra,2020,1.5,Kharif,train
+Madhya Pradesh,Wheat,2015,3.78,Rabi,train
+Bihar,Maize,2024,2.99,Kharif,train
+Punjab,Potato,2017,24.55,Rabi,train
+Punjab,Gram,2016,1.04,Rabi,train
+Tamil Nadu,Mustard,2022,1.4,Rabi,train
+Karnataka,Soybean,2024,1.31,Kharif,train
+West Bengal,Wheat,2022,3.64,Rabi,train
+Madhya Pradesh,Banana,2024,34.26,Rabi,train
+Andhra Pradesh,Potato,2019,25.37,Rabi,train
+Maharashtra,Rice,2024,2.23,Kharif,train
+West Bengal,Gram,2021,1.18,Rabi,train
+Uttar Pradesh,Wheat,2021,3.4,Rabi,train
+Uttar Pradesh,Potato,2016,22.95,Rabi,train
+Tamil Nadu,Cotton,2016,0.44,Kharif,train
+Karnataka,Tomato,2018,21.64,Rabi,train
+Karnataka,Rice,2018,2.97,Kharif,train
+Rajasthan,Potato,2019,24.95,Rabi,train
+Uttar Pradesh,Mustard,2017,1.04,Rabi,train
+Gujarat,Gram,2018,1.3,Rabi,train
+Gujarat,Bajra,2017,1.26,Kharif,train
+Gujarat,Potato,2021,24.28,Rabi,train
+Maharashtra,Banana,2018,29.53,Rabi,train
+Haryana,Rice,2022,3.08,Kharif,train
+Tamil Nadu,Banana,2020,36.99,Rabi,train
+Punjab,Cotton,2020,0.46,Kharif,train
+Madhya Pradesh,Sugarcane,2024,77.29,Rabi,train
+Punjab,Groundnut,2017,1.43,Kharif,train
+Rajasthan,Soybean,2017,1.02,Kharif,train
+Andhra Pradesh,Sugarcane,2021,56.96,Rabi,train
+Karnataka,Sugarcane,2021,61.71,Rabi,train
+Gujarat,Wheat,2020,4.07,Rabi,train
+Rajasthan,Potato,2016,19.67,Rabi,train
+Tamil Nadu,Soybean,2019,1.22,Kharif,train
+Andhra Pradesh,Rice,2015,2.41,Kharif,train
+Gujarat,Onion,2022,19.99,Rabi,train
+Rajasthan,Jowar,2017,0.81,Kharif,train
+Maharashtra,Rice,2019,2.43,Kharif,train
+Uttar Pradesh,Rice,2023,3.04,Kharif,train
+Andhra Pradesh,Cotton,2015,0.54,Kharif,train
+Punjab,Maize,2021,2.79,Kharif,train
+Andhra Pradesh,Potato,2022,22.3,Rabi,train
+Andhra Pradesh,Banana,2016,41.65,Rabi,train
+West Bengal,Mustard,2025,1.14,Rabi,train
+Karnataka,Bajra,2025,1.12,Kharif,train
+Haryana,Rice,2019,2.4,Kharif,train
+Gujarat,Tomato,2018,27.63,Rabi,train
+Andhra Pradesh,Cotton,2024,0.58,Kharif,train
+Andhra Pradesh,Groundnut,2025,1.65,Kharif,train
+Gujarat,Potato,2023,23.2,Rabi,train
+Karnataka,Onion,2025,16.48,Rabi,train
+Uttar Pradesh,Banana,2022,33.36,Rabi,train
+Karnataka,Jowar,2022,0.96,Kharif,train
+Tamil Nadu,Soybean,2023,1.16,Kharif,train
+Tamil Nadu,Cotton,2024,0.54,Kharif,train
+Maharashtra,Groundnut,2019,1.15,Kharif,train
+Madhya Pradesh,Groundnut,2017,1.66,Kharif,train
+Maharashtra,Banana,2023,38.1,Rabi,train
+Haryana,Tomato,2018,28.26,Rabi,train
+Madhya Pradesh,Tomato,2021,27.33,Rabi,train
+Rajasthan,Mustard,2025,1.44,Rabi,train
+Bihar,Jowar,2025,1.09,Kharif,train
+Andhra Pradesh,Rice,2016,2.96,Kharif,train
+Gujarat,Gram,2017,0.89,Rabi,train
+Bihar,Sugarcane,2018,70.18,Rabi,train
+Bihar,Jowar,2020,0.9,Kharif,train
+Karnataka,Soybean,2025,0.97,Kharif,train
+Andhra Pradesh,Sugarcane,2025,79.1,Rabi,train
+Tamil Nadu,Tomato,2024,20.02,Rabi,train
+Punjab,Soybean,2024,1.04,Kharif,train
+Bihar,Cotton,2023,0.57,Kharif,train
+Maharashtra,Tomato,2022,22.49,Rabi,train
+Andhra Pradesh,Wheat,2016,4.17,Rabi,train
+Andhra Pradesh,Wheat,2023,3.6,Rabi,train
+Karnataka,Potato,2025,22.04,Rabi,train
+Karnataka,Jowar,2016,0.89,Kharif,train
+Tamil Nadu,Potato,2018,25.74,Rabi,train
+Rajasthan,Jowar,2025,0.82,Kharif,train
+Gujarat,Cotton,2018,0.53,Kharif,train
+Gujarat,Bajra,2016,1.17,Kharif,train
+Karnataka,Potato,2019,21.27,Rabi,train
+West Bengal,Rice,2021,2.92,Kharif,train
+Karnataka,Maize,2018,3.83,Kharif,train
+Madhya Pradesh,Tomato,2023,29.32,Rabi,train
+Madhya Pradesh,Potato,2017,20.12,Rabi,train
+Uttar Pradesh,Jowar,2018,0.86,Kharif,train
+Haryana,Soybean,2015,1.12,Kharif,train
+Punjab,Tomato,2024,22.85,Rabi,train
+Bihar,Banana,2017,37.48,Rabi,train
+Uttar Pradesh,Bajra,2019,1.55,Kharif,train
+Uttar Pradesh,Potato,2025,24.25,Rabi,train
+Haryana,Wheat,2015,3.12,Rabi,train
+Tamil Nadu,Sugarcane,2023,72.24,Rabi,train
+West Bengal,Tomato,2017,23.63,Rabi,train
+Gujarat,Tomato,2015,22.1,Rabi,train
+West Bengal,Onion,2022,13.83,Rabi,train
+Maharashtra,Soybean,2016,0.99,Kharif,train
+Punjab,Potato,2021,21.29,Rabi,train
+Andhra Pradesh,Gram,2024,1.27,Rabi,train
+Karnataka,Sugarcane,2018,62.09,Rabi,train
+Gujarat,Banana,2015,30.76,Rabi,train
+Rajasthan,Sugarcane,2016,78.6,Rabi,train
+Haryana,Bajra,2018,1.31,Kharif,train
+Punjab,Cotton,2018,0.54,Kharif,train
+Bihar,Cotton,2022,0.51,Kharif,train
+Madhya Pradesh,Rice,2017,2.2,Kharif,train
+West Bengal,Gram,2022,1.01,Rabi,train
+Gujarat,Soybean,2025,1.0,Kharif,train
+Karnataka,Mustard,2024,1.36,Rabi,train
+Bihar,Tomato,2019,26.12,Rabi,train
+Madhya Pradesh,Onion,2016,18.67,Rabi,train
+Haryana,Maize,2019,2.85,Kharif,train
+Karnataka,Groundnut,2021,1.43,Kharif,train
+Uttar Pradesh,Jowar,2020,1.0,Kharif,train
+Madhya Pradesh,Wheat,2019,3.62,Rabi,train
+Madhya Pradesh,Soybean,2016,0.96,Kharif,train
+West Bengal,Gram,2023,1.14,Rabi,train
+Bihar,Soybean,2017,1.24,Kharif,train
+Madhya Pradesh,Tomato,2017,20.6,Rabi,train
+Uttar Pradesh,Onion,2020,14.67,Rabi,train
+Tamil Nadu,Soybean,2024,1.13,Kharif,train
+Karnataka,Rice,2015,2.61,Kharif,train
+Gujarat,Banana,2022,31.7,Rabi,train
+Maharashtra,Jowar,2015,1.03,Kharif,train
+Punjab,Bajra,2019,1.39,Kharif,train
+Uttar Pradesh,Onion,2025,17.32,Rabi,train
+Rajasthan,Tomato,2025,20.55,Rabi,train
+Karnataka,Mustard,2016,1.2,Rabi,train
+Maharashtra,Soybean,2025,1.1,Kharif,train
+Rajasthan,Onion,2021,19.79,Rabi,train
+Punjab,Groundnut,2016,1.37,Kharif,train
+Karnataka,Maize,2016,3.59,Kharif,train
+Bihar,Groundnut,2023,1.64,Kharif,train
+Rajasthan,Onion,2020,13.71,Rabi,train
+Madhya Pradesh,Groundnut,2020,1.58,Kharif,train
+Maharashtra,Rice,2018,2.32,Kharif,train
+Andhra Pradesh,Jowar,2015,0.95,Kharif,train
+Gujarat,Rice,2020,2.2,Kharif,train
+Punjab,Wheat,2015,2.93,Rabi,train
+Uttar Pradesh,Tomato,2015,24.05,Rabi,train
+Haryana,Bajra,2024,1.4,Kharif,train
+Tamil Nadu,Tomato,2025,20.34,Rabi,train
+Andhra Pradesh,Cotton,2018,0.55,Kharif,train
+West Bengal,Onion,2015,17.9,Rabi,train
+Madhya Pradesh,Maize,2023,2.95,Kharif,train
+Bihar,Jowar,2024,1.11,Kharif,train
+Rajasthan,Cotton,2024,0.46,Kharif,train
+Madhya Pradesh,Maize,2022,3.46,Kharif,train
+Karnataka,Maize,2019,2.69,Kharif,train
+Punjab,Banana,2020,41.7,Rabi,train
+Karnataka,Tomato,2019,26.95,Rabi,train
+Bihar,Tomato,2023,25.96,Rabi,train
+Haryana,Groundnut,2019,1.57,Kharif,train
+Uttar Pradesh,Rice,2020,2.3,Kharif,train
+Rajasthan,Sugarcane,2017,65.55,Rabi,train
+Tamil Nadu,Sugarcane,2020,66.07,Rabi,train
+Maharashtra,Wheat,2024,3.08,Rabi,train
+Gujarat,Maize,2021,3.38,Kharif,train
+Tamil Nadu,Maize,2018,3.01,Kharif,train
+Madhya Pradesh,Soybean,2024,0.9,Kharif,train
+West Bengal,Onion,2017,14.66,Rabi,train
+Madhya Pradesh,Soybean,2017,1.04,Kharif,train
+Andhra Pradesh,Groundnut,2018,1.4,Kharif,train
+Andhra Pradesh,Sugarcane,2019,61.76,Rabi,train
+Gujarat,Gram,2015,1.16,Rabi,train
+Rajasthan,Mustard,2020,1.26,Rabi,train
+Maharashtra,Maize,2019,3.8,Kharif,train
+Punjab,Maize,2015,3.66,Kharif,train
+Uttar Pradesh,Maize,2019,3.14,Kharif,train
+Andhra Pradesh,Jowar,2016,1.15,Kharif,train
+Andhra Pradesh,Banana,2018,29.43,Rabi,train
+West Bengal,Wheat,2020,3.33,Rabi,train
+Uttar Pradesh,Rice,2025,2.32,Kharif,train
+Uttar Pradesh,Soybean,2017,1.06,Kharif,train
+Uttar Pradesh,Mustard,2015,1.39,Rabi,train
+Haryana,Sugarcane,2023,60.23,Rabi,train
+Karnataka,Onion,2024,19.73,Rabi,train
+Andhra Pradesh,Tomato,2021,26.18,Rabi,train
+Bihar,Groundnut,2022,1.48,Kharif,train
+Tamil Nadu,Wheat,2025,3.03,Rabi,train
+Rajasthan,Bajra,2019,1.16,Kharif,train
+Punjab,Groundnut,2020,1.6,Kharif,train
+Tamil Nadu,Wheat,2022,3.49,Rabi,train
+Tamil Nadu,Onion,2018,17.09,Rabi,train
+Tamil Nadu,Soybean,2018,1.26,Kharif,train
+Bihar,Onion,2022,19.82,Rabi,train
+Andhra Pradesh,Mustard,2025,1.21,Rabi,train
+Madhya Pradesh,Cotton,2018,0.53,Kharif,train
+West Bengal,Jowar,2019,0.94,Kharif,train
+Tamil Nadu,Rice,2021,2.71,Kharif,train
+Punjab,Mustard,2025,1.53,Rabi,train
+Tamil Nadu,Soybean,2025,1.03,Kharif,train
+West Bengal,Sugarcane,2023,78.17,Rabi,train
+Rajasthan,Banana,2023,39.87,Rabi,train
+Madhya Pradesh,Jowar,2023,0.99,Kharif,train
+Maharashtra,Onion,2023,18.49,Rabi,train
+Madhya Pradesh,Cotton,2025,0.44,Kharif,train
+Andhra Pradesh,Potato,2017,19.32,Rabi,train
+Andhra Pradesh,Gram,2023,1.08,Rabi,train
+Bihar,Banana,2025,39.01,Rabi,train
+Andhra Pradesh,Soybean,2021,0.92,Kharif,train
+Uttar Pradesh,Banana,2018,30.87,Rabi,train
+Maharashtra,Potato,2024,23.82,Rabi,train
+Tamil Nadu,Mustard,2023,1.48,Rabi,train
+Tamil Nadu,Jowar,2023,1.06,Kharif,train
+Madhya Pradesh,Gram,2024,1.22,Rabi,train
+Maharashtra,Wheat,2021,3.45,Rabi,train
+Maharashtra,Gram,2021,0.99,Rabi,train
+Gujarat,Mustard,2015,1.12,Rabi,train
+West Bengal,Bajra,2025,1.54,Kharif,train
+West Bengal,Bajra,2016,1.54,Kharif,train
+Tamil Nadu,Banana,2021,41.51,Rabi,train
+Madhya Pradesh,Jowar,2024,1.18,Kharif,train
+Punjab,Bajra,2021,1.51,Kharif,train
+Madhya Pradesh,Onion,2018,18.12,Rabi,train
+West Bengal,Maize,2017,3.1,Kharif,train
+Tamil Nadu,Groundnut,2018,1.45,Kharif,train
+Karnataka,Rice,2020,2.88,Kharif,train
+Punjab,Bajra,2024,1.45,Kharif,train
+Maharashtra,Banana,2022,41.18,Rabi,train
+Rajasthan,Tomato,2022,27.33,Rabi,train
+Maharashtra,Gram,2023,1.08,Rabi,train
+Uttar Pradesh,Cotton,2021,0.46,Kharif,train
+Haryana,Soybean,2019,0.99,Kharif,train
+Maharashtra,Banana,2021,37.55,Rabi,train
+Karnataka,Bajra,2015,1.11,Kharif,train
+Madhya Pradesh,Banana,2023,37.94,Rabi,train
+Karnataka,Cotton,2023,0.45,Kharif,train
+Punjab,Sugarcane,2017,70.71,Rabi,train
+Gujarat,Sugarcane,2024,77.89,Rabi,train
+West Bengal,Cotton,2024,0.44,Kharif,train
+Tamil Nadu,Rice,2016,2.2,Kharif,train
+Karnataka,Sugarcane,2022,63.14,Rabi,train
+Madhya Pradesh,Bajra,2018,1.51,Kharif,train
+Andhra Pradesh,Potato,2024,20.76,Rabi,train
+Rajasthan,Banana,2025,35.24,Rabi,train
+Punjab,Rice,2019,2.74,Kharif,train
+Tamil Nadu,Wheat,2017,4.19,Rabi,train
+West Bengal,Potato,2016,25.5,Rabi,train
+Haryana,Groundnut,2025,1.41,Kharif,train
+Bihar,Tomato,2017,27.89,Rabi,train
+West Bengal,Banana,2024,41.0,Rabi,train
+Uttar Pradesh,Bajra,2018,1.21,Kharif,train
+Tamil Nadu,Wheat,2016,4.0,Rabi,train
+Tamil Nadu,Onion,2025,16.01,Rabi,train
+Karnataka,Wheat,2016,3.08,Rabi,train
+West Bengal,Jowar,2017,0.82,Kharif,train
+Haryana,Gram,2022,1.27,Rabi,train
+Gujarat,Sugarcane,2016,74.33,Rabi,train
+Bihar,Potato,2016,25.61,Rabi,train
+Haryana,Mustard,2020,1.26,Rabi,train
+Punjab,Mustard,2021,1.18,Rabi,train
+Tamil Nadu,Banana,2019,31.71,Rabi,train
+Andhra Pradesh,Potato,2018,19.3,Rabi,train
+Maharashtra,Onion,2017,19.61,Rabi,train
+Punjab,Sugarcane,2021,83.44,Rabi,train
+Bihar,Sugarcane,2022,65.27,Rabi,train
+Madhya Pradesh,Tomato,2015,21.42,Rabi,train
+Karnataka,Rice,2023,2.48,Kharif,train
+Gujarat,Potato,2017,23.69,Rabi,train
+Tamil Nadu,Jowar,2019,0.86,Kharif,train
+Andhra Pradesh,Wheat,2015,3.73,Rabi,train
+Uttar Pradesh,Gram,2023,1.13,Rabi,train
+Karnataka,Mustard,2018,1.34,Rabi,train
+Maharashtra,Banana,2019,30.16,Rabi,train
+Uttar Pradesh,Tomato,2018,21.3,Rabi,train
+Maharashtra,Wheat,2020,3.45,Rabi,train
+Haryana,Banana,2016,35.76,Rabi,train
+Punjab,Wheat,2023,3.36,Rabi,train
+Madhya Pradesh,Maize,2017,3.69,Kharif,train
+Punjab,Cotton,2017,0.44,Kharif,train
+Karnataka,Onion,2015,16.03,Rabi,train
+Karnataka,Rice,2017,2.89,Kharif,train
+West Bengal,Jowar,2023,0.82,Kharif,train
+Uttar Pradesh,Onion,2015,18.16,Rabi,train
+Karnataka,Groundnut,2022,1.48,Kharif,train
+Maharashtra,Cotton,2024,0.58,Kharif,train
+Madhya Pradesh,Groundnut,2025,1.33,Kharif,train
+Rajasthan,Tomato,2019,25.83,Rabi,train
+Tamil Nadu,Tomato,2021,25.86,Rabi,train
+Andhra Pradesh,Sugarcane,2015,80.3,Rabi,train
+Haryana,Onion,2018,16.72,Rabi,train
+Gujarat,Groundnut,2023,1.25,Kharif,train
+Tamil Nadu,Gram,2020,1.19,Rabi,train
+Madhya Pradesh,Jowar,2018,1.17,Kharif,train
+Rajasthan,Sugarcane,2025,62.11,Rabi,train
+Uttar Pradesh,Banana,2020,41.66,Rabi,train
+Punjab,Banana,2015,35.4,Rabi,train
+Karnataka,Gram,2019,1.13,Rabi,train
+Karnataka,Maize,2021,3.61,Kharif,train
+Andhra Pradesh,Banana,2017,38.2,Rabi,train
+Maharashtra,Jowar,2024,0.91,Kharif,train
+Madhya Pradesh,Maize,2018,3.17,Kharif,train
+Bihar,Potato,2020,23.42,Rabi,train
+Maharashtra,Tomato,2023,22.66,Rabi,train
+Rajasthan,Tomato,2023,24.08,Rabi,train
+Punjab,Wheat,2021,4.13,Rabi,train
+Punjab,Jowar,2021,0.86,Kharif,train
+Gujarat,Maize,2019,3.65,Kharif,train
+Andhra Pradesh,Jowar,2018,0.98,Kharif,train
+Rajasthan,Gram,2016,1.1,Rabi,train
+Karnataka,Soybean,2018,1.0,Kharif,train
+Karnataka,Banana,2016,38.69,Rabi,train
+Rajasthan,Jowar,2023,1.15,Kharif,train
+Haryana,Maize,2018,2.84,Kharif,train
+Tamil Nadu,Mustard,2021,1.43,Rabi,train
+Tamil Nadu,Rice,2017,2.85,Kharif,train
+Rajasthan,Bajra,2025,1.09,Kharif,train
+Bihar,Banana,2016,34.14,Rabi,train
+Maharashtra,Bajra,2016,1.51,Kharif,train
+Haryana,Wheat,2019,2.84,Rabi,train
+Haryana,Gram,2019,1.2,Rabi,train
+Maharashtra,Rice,2016,2.85,Kharif,train
+West Bengal,Maize,2022,3.63,Kharif,train
+West Bengal,Cotton,2025,0.55,Kharif,train
+Bihar,Banana,2021,37.03,Rabi,train
+Bihar,Gram,2020,1.08,Rabi,train
+Maharashtra,Maize,2015,3.76,Kharif,train
+Rajasthan,Mustard,2021,1.48,Rabi,train
+Tamil Nadu,Onion,2017,16.54,Rabi,train
+Uttar Pradesh,Mustard,2018,1.45,Rabi,train
+Punjab,Banana,2018,28.38,Rabi,train
+Andhra Pradesh,Groundnut,2015,1.67,Kharif,train
+Andhra Pradesh,Cotton,2022,0.56,Kharif,train
+Punjab,Wheat,2020,3.68,Rabi,train
+Bihar,Sugarcane,2021,78.17,Rabi,train
+Tamil Nadu,Onion,2020,14.5,Rabi,train
+Rajasthan,Gram,2019,0.93,Rabi,train
+Maharashtra,Sugarcane,2022,64.85,Rabi,train
+Bihar,Sugarcane,2025,72.42,Rabi,train
+Maharashtra,Banana,2024,37.06,Rabi,train
+Bihar,Jowar,2018,0.81,Kharif,train
+Tamil Nadu,Maize,2022,2.91,Kharif,train
+Bihar,Banana,2022,36.82,Rabi,train
+Bihar,Wheat,2023,2.84,Rabi,train
+Karnataka,Gram,2017,1.27,Rabi,train
+Rajasthan,Sugarcane,2019,56.05,Rabi,train
+Haryana,Bajra,2023,1.53,Kharif,val
+Madhya Pradesh,Gram,2020,0.96,Rabi,val
+Bihar,Jowar,2019,1.09,Kharif,val
+Haryana,Potato,2020,23.45,Rabi,val
+Punjab,Maize,2019,2.95,Kharif,val
+West Bengal,Soybean,2019,1.26,Kharif,val
+Uttar Pradesh,Soybean,2023,1.11,Kharif,val
+Rajasthan,Bajra,2018,1.54,Kharif,val
+Gujarat,Tomato,2017,23.92,Rabi,val
+Haryana,Potato,2024,24.38,Rabi,val
+Punjab,Cotton,2019,0.49,Kharif,val
+Madhya Pradesh,Groundnut,2016,1.19,Kharif,val
+Tamil Nadu,Potato,2015,27.54,Rabi,val
+Gujarat,Onion,2016,16.46,Rabi,val
+Uttar Pradesh,Gram,2022,1.25,Rabi,val
+West Bengal,Maize,2019,3.6,Kharif,val
+Rajasthan,Gram,2015,0.93,Rabi,val
+Madhya Pradesh,Maize,2020,2.88,Kharif,val
+Rajasthan,Wheat,2015,3.0,Rabi,val
+Maharashtra,Mustard,2016,1.05,Rabi,val
+West Bengal,Sugarcane,2017,72.99,Rabi,val
+Andhra Pradesh,Potato,2023,18.59,Rabi,val
+Andhra Pradesh,Rice,2018,2.97,Kharif,val
+Gujarat,Groundnut,2022,1.43,Kharif,val
+Bihar,Cotton,2024,0.46,Kharif,val
+Bihar,Banana,2015,36.05,Rabi,val
+Andhra Pradesh,Mustard,2017,1.41,Rabi,val
+West Bengal,Banana,2016,40.99,Rabi,val
+Madhya Pradesh,Gram,2023,1.24,Rabi,val
+Bihar,Bajra,2023,1.4,Kharif,val
+Punjab,Banana,2021,40.09,Rabi,val
+Karnataka,Jowar,2025,0.85,Kharif,val
+Andhra Pradesh,Maize,2024,2.6,Kharif,val
+Madhya Pradesh,Banana,2022,34.98,Rabi,val
+West Bengal,Wheat,2019,4.04,Rabi,val
+Karnataka,Sugarcane,2023,72.78,Rabi,val
+Karnataka,Groundnut,2015,1.58,Kharif,val
+Punjab,Mustard,2024,1.05,Rabi,val
+Rajasthan,Rice,2019,2.68,Kharif,val
+West Bengal,Soybean,2025,1.05,Kharif,val
+Maharashtra,Wheat,2018,3.21,Rabi,val
+Tamil Nadu,Mustard,2017,1.09,Rabi,val
+Andhra Pradesh,Groundnut,2022,1.31,Kharif,val
+Bihar,Banana,2023,33.85,Rabi,val
+Punjab,Soybean,2019,1.09,Kharif,val
+Gujarat,Jowar,2019,1.14,Kharif,val
+Gujarat,Jowar,2017,0.94,Kharif,val
+Maharashtra,Groundnut,2018,1.28,Kharif,val
+Rajasthan,Rice,2021,2.31,Kharif,val
+Tamil Nadu,Mustard,2025,1.18,Rabi,val
+Punjab,Sugarcane,2024,77.2,Rabi,val
+Punjab,Mustard,2023,1.12,Rabi,val
+Uttar Pradesh,Tomato,2022,21.63,Rabi,val
+Rajasthan,Soybean,2023,1.3,Kharif,val
+Haryana,Cotton,2024,0.56,Kharif,val
+Rajasthan,Potato,2021,19.13,Rabi,val
+Tamil Nadu,Gram,2015,1.02,Rabi,val
+West Bengal,Onion,2021,13.74,Rabi,val
+Punjab,Rice,2023,2.2,Kharif,val
+Tamil Nadu,Maize,2017,2.64,Kharif,val
+West Bengal,Jowar,2022,1.13,Kharif,val
+Tamil Nadu,Tomato,2019,26.39,Rabi,val
+Uttar Pradesh,Jowar,2016,1.09,Kharif,val
+Haryana,Groundnut,2015,1.13,Kharif,val
+Gujarat,Rice,2022,3.01,Kharif,val
+Karnataka,Tomato,2020,24.1,Rabi,val
+West Bengal,Tomato,2015,21.81,Rabi,val
+Karnataka,Potato,2015,18.5,Rabi,val
+Bihar,Bajra,2015,1.29,Kharif,val
+Rajasthan,Potato,2015,23.66,Rabi,val
+Maharashtra,Jowar,2022,0.94,Kharif,val
+Uttar Pradesh,Wheat,2019,2.88,Rabi,val
+West Bengal,Cotton,2018,0.54,Kharif,val
+Haryana,Groundnut,2024,1.3,Kharif,val
+Bihar,Mustard,2021,1.13,Rabi,val
+Gujarat,Rice,2016,2.85,Kharif,val
+Gujarat,Bajra,2023,1.2,Kharif,val
+Punjab,Mustard,2022,1.47,Rabi,val
+Uttar Pradesh,Gram,2025,1.16,Rabi,val
+Maharashtra,Mustard,2017,1.06,Rabi,val
+Rajasthan,Mustard,2019,1.24,Rabi,val
+Rajasthan,Sugarcane,2020,79.3,Rabi,val
+Maharashtra,Potato,2015,26.12,Rabi,val
+West Bengal,Banana,2025,39.79,Rabi,val
+Karnataka,Soybean,2019,1.11,Kharif,val
+Uttar Pradesh,Banana,2019,38.36,Rabi,val
+West Bengal,Mustard,2016,1.17,Rabi,val
+Andhra Pradesh,Wheat,2020,4.0,Rabi,val
+Punjab,Mustard,2018,1.08,Rabi,val
+West Bengal,Cotton,2020,0.47,Kharif,val
+Rajasthan,Groundnut,2020,1.12,Kharif,val
+Uttar Pradesh,Tomato,2021,22.56,Rabi,val
+Karnataka,Jowar,2023,1.01,Kharif,val
+Rajasthan,Sugarcane,2015,56.45,Rabi,val
+Maharashtra,Banana,2025,38.71,Rabi,val
+Gujarat,Sugarcane,2023,60.5,Rabi,val
+Uttar Pradesh,Gram,2016,1.19,Rabi,val
+Gujarat,Maize,2022,3.14,Kharif,val
+Haryana,Wheat,2025,4.11,Rabi,val
+Tamil Nadu,Banana,2018,35.33,Rabi,val
+Andhra Pradesh,Tomato,2018,29.64,Rabi,val
+Maharashtra,Bajra,2018,1.27,Kharif,val
+Punjab,Mustard,2015,1.56,Rabi,val
+Madhya Pradesh,Groundnut,2018,1.24,Kharif,val
+Bihar,Sugarcane,2020,74.33,Rabi,val
+Karnataka,Banana,2017,38.92,Rabi,val
+Haryana,Maize,2025,3.17,Kharif,val
+Bihar,Mustard,2020,1.42,Rabi,val
+Karnataka,Potato,2018,20.1,Rabi,val
+Haryana,Bajra,2019,1.4,Kharif,val
+Haryana,Jowar,2022,0.98,Kharif,val
+Rajasthan,Bajra,2023,1.46,Kharif,val
+Uttar Pradesh,Tomato,2019,20.71,Rabi,val
+Punjab,Jowar,2016,0.84,Kharif,val
+Andhra Pradesh,Sugarcane,2023,78.74,Rabi,val
+Haryana,Cotton,2019,0.58,Kharif,val
+Gujarat,Gram,2025,1.03,Rabi,val
+Karnataka,Rice,2025,2.56,Kharif,val
+Haryana,Onion,2019,17.57,Rabi,val
+Gujarat,Bajra,2024,1.29,Kharif,val
+West Bengal,Onion,2024,19.49,Rabi,val
+Rajasthan,Tomato,2016,26.12,Rabi,val
+Rajasthan,Sugarcane,2018,59.92,Rabi,val
+Tamil Nadu,Banana,2024,28.21,Rabi,val
+West Bengal,Wheat,2015,3.96,Rabi,val
+Gujarat,Soybean,2022,1.25,Kharif,val
+Uttar Pradesh,Sugarcane,2025,78.93,Rabi,val
+West Bengal,Groundnut,2018,1.36,Kharif,val
+Karnataka,Maize,2022,3.64,Kharif,val
+Bihar,Soybean,2020,1.08,Kharif,val
+Haryana,Sugarcane,2025,78.58,Rabi,val
+Maharashtra,Mustard,2018,1.41,Rabi,val
+Punjab,Rice,2016,2.32,Kharif,val
+Punjab,Bajra,2017,1.31,Kharif,val
+Madhya Pradesh,Cotton,2020,0.45,Kharif,val
+Rajasthan,Onion,2018,19.48,Rabi,val
+Karnataka,Jowar,2020,0.87,Kharif,val
+Bihar,Banana,2024,33.4,Rabi,val
+Bihar,Mustard,2023,1.29,Rabi,val
+West Bengal,Onion,2019,15.95,Rabi,val
+Gujarat,Groundnut,2017,1.19,Kharif,val
+Gujarat,Groundnut,2016,1.24,Kharif,val
+Bihar,Sugarcane,2019,83.3,Rabi,val
+Andhra Pradesh,Gram,2019,1.07,Rabi,val
+West Bengal,Gram,2024,1.21,Rabi,val
+Uttar Pradesh,Bajra,2016,1.5,Kharif,val
+Bihar,Cotton,2017,0.51,Kharif,val
+Tamil Nadu,Mustard,2018,1.16,Rabi,val
+West Bengal,Potato,2025,20.17,Rabi,val
+Andhra Pradesh,Soybean,2017,1.19,Kharif,val
+Rajasthan,Maize,2024,2.89,Kharif,val
+Bihar,Mustard,2018,1.08,Rabi,val
+West Bengal,Sugarcane,2016,62.55,Rabi,val
+Gujarat,Onion,2015,16.45,Rabi,val
+Madhya Pradesh,Rice,2018,3.0,Kharif,val
+Rajasthan,Rice,2018,3.05,Kharif,val
+Andhra Pradesh,Soybean,2018,1.1,Kharif,val
+West Bengal,Soybean,2022,1.28,Kharif,val
+West Bengal,Sugarcane,2021,63.13,Rabi,val
+Haryana,Mustard,2024,1.21,Rabi,val
+Maharashtra,Mustard,2025,1.47,Rabi,val
+Gujarat,Bajra,2019,1.04,Kharif,val
+Gujarat,Banana,2020,40.36,Rabi,val
+Madhya Pradesh,Sugarcane,2020,64.73,Rabi,val
+Gujarat,Potato,2022,26.03,Rabi,val
+Andhra Pradesh,Jowar,2021,1.1,Kharif,val
+Karnataka,Mustard,2019,1.26,Rabi,val
+Maharashtra,Gram,2015,0.94,Rabi,val
+Maharashtra,Gram,2020,1.0,Rabi,val
+Andhra Pradesh,Mustard,2023,1.31,Rabi,val
+Gujarat,Onion,2018,15.99,Rabi,val
+Gujarat,Groundnut,2015,1.34,Kharif,val
+Andhra Pradesh,Groundnut,2020,1.22,Kharif,val
+Rajasthan,Bajra,2022,1.17,Kharif,val
+Andhra Pradesh,Soybean,2015,1.0,Kharif,val
+Bihar,Wheat,2015,3.73,Rabi,val
+Gujarat,Sugarcane,2022,71.21,Rabi,val
+Bihar,Sugarcane,2015,67.3,Rabi,val
+West Bengal,Wheat,2017,3.23,Rabi,val
+Gujarat,Cotton,2016,0.56,Kharif,val
+Rajasthan,Groundnut,2017,1.21,Kharif,val
+Rajasthan,Tomato,2015,22.06,Rabi,val
+Bihar,Banana,2019,39.16,Rabi,val
+Rajasthan,Wheat,2020,3.18,Rabi,val
+Madhya Pradesh,Gram,2018,1.1,Rabi,val
+Maharashtra,Mustard,2022,1.04,Rabi,val
+Tamil Nadu,Maize,2015,3.57,Kharif,val
+Rajasthan,Rice,2022,2.4,Kharif,val
+Maharashtra,Potato,2021,21.82,Rabi,val
+Madhya Pradesh,Wheat,2025,3.44,Rabi,val
+Maharashtra,Onion,2020,19.81,Rabi,val
+Tamil Nadu,Bajra,2024,1.16,Kharif,val
+Andhra Pradesh,Bajra,2016,1.25,Kharif,val
+West Bengal,Tomato,2021,21.49,Rabi,val
+Andhra Pradesh,Maize,2021,3.75,Kharif,val
+Maharashtra,Maize,2022,2.83,Kharif,val
+Tamil Nadu,Tomato,2018,22.54,Rabi,val
+Maharashtra,Sugarcane,2016,56.1,Rabi,val
+Andhra Pradesh,Cotton,2021,0.47,Kharif,test
+West Bengal,Maize,2021,2.61,Kharif,test
+Madhya Pradesh,Groundnut,2015,1.66,Kharif,test
+Rajasthan,Wheat,2023,3.03,Rabi,test
+Gujarat,Bajra,2015,1.24,Kharif,test
+Uttar Pradesh,Banana,2015,29.04,Rabi,test
+West Bengal,Soybean,2023,0.91,Kharif,test
+Punjab,Groundnut,2022,1.35,Kharif,test
+Tamil Nadu,Maize,2023,3.6,Kharif,test
+Maharashtra,Tomato,2017,20.48,Rabi,test
+Andhra Pradesh,Soybean,2025,1.16,Kharif,test
+Madhya Pradesh,Onion,2020,16.14,Rabi,test
+Karnataka,Cotton,2020,0.47,Kharif,test
+Bihar,Bajra,2018,1.38,Kharif,test
+West Bengal,Potato,2024,20.14,Rabi,test
+Gujarat,Banana,2025,34.9,Rabi,test
+Karnataka,Tomato,2015,25.5,Rabi,test
+Bihar,Groundnut,2019,1.36,Kharif,test
+Tamil Nadu,Sugarcane,2019,73.82,Rabi,test
+Haryana,Cotton,2023,0.44,Kharif,test
+Uttar Pradesh,Potato,2022,21.55,Rabi,test
+Madhya Pradesh,Gram,2017,1.07,Rabi,test
+Karnataka,Sugarcane,2016,72.69,Rabi,test
+Uttar Pradesh,Tomato,2016,23.48,Rabi,test
+Madhya Pradesh,Soybean,2022,1.22,Kharif,test
+Rajasthan,Rice,2024,2.93,Kharif,test
+Andhra Pradesh,Onion,2024,14.97,Rabi,test
+Tamil Nadu,Cotton,2020,0.41,Kharif,test
+West Bengal,Gram,2025,0.93,Rabi,test
+Maharashtra,Mustard,2019,1.51,Rabi,test
+Rajasthan,Potato,2018,25.49,Rabi,test
+Maharashtra,Bajra,2022,1.22,Kharif,test
+West Bengal,Bajra,2017,1.17,Kharif,test
+Karnataka,Gram,2018,0.9,Rabi,test
+Bihar,Onion,2023,18.06,Rabi,test
+Madhya Pradesh,Potato,2025,27.36,Rabi,test
+Madhya Pradesh,Maize,2016,3.39,Kharif,test
+Punjab,Groundnut,2025,1.66,Kharif,test
+Madhya Pradesh,Mustard,2016,1.21,Rabi,test
+West Bengal,Soybean,2017,0.9,Kharif,test
+Bihar,Bajra,2017,1.09,Kharif,test
+Uttar Pradesh,Tomato,2025,28.71,Rabi,test
+Maharashtra,Rice,2022,2.77,Kharif,test
+Tamil Nadu,Onion,2019,19.69,Rabi,test
+Tamil Nadu,Tomato,2015,27.44,Rabi,test
+Karnataka,Soybean,2020,1.29,Kharif,test
+Madhya Pradesh,Bajra,2024,1.41,Kharif,test
+Haryana,Cotton,2017,0.42,Kharif,test
+Punjab,Gram,2017,0.89,Rabi,test
+Tamil Nadu,Potato,2021,23.71,Rabi,test
+Punjab,Cotton,2022,0.49,Kharif,test
+Tamil Nadu,Maize,2020,2.76,Kharif,test
+Haryana,Potato,2025,23.24,Rabi,test
+Bihar,Maize,2021,2.6,Kharif,test
+West Bengal,Mustard,2018,1.29,Rabi,test
+Uttar Pradesh,Sugarcane,2019,76.53,Rabi,test
+Haryana,Jowar,2017,1.02,Kharif,test
+Uttar Pradesh,Groundnut,2015,1.26,Kharif,test
+West Bengal,Sugarcane,2019,69.03,Rabi,test
+Uttar Pradesh,Potato,2021,27.44,Rabi,test
+Maharashtra,Groundnut,2024,1.29,Kharif,test
+Bihar,Cotton,2019,0.44,Kharif,test
+Andhra Pradesh,Rice,2022,2.42,Kharif,test
+Tamil Nadu,Groundnut,2023,1.2,Kharif,test
+Bihar,Rice,2025,2.77,Kharif,test
+Maharashtra,Mustard,2024,1.52,Rabi,test
+Tamil Nadu,Banana,2023,40.32,Rabi,test
+Gujarat,Sugarcane,2018,66.88,Rabi,test
+Maharashtra,Maize,2018,3.61,Kharif,test
+Punjab,Potato,2024,23.74,Rabi,test
+Rajasthan,Wheat,2025,3.25,Rabi,test
+Punjab,Wheat,2018,2.97,Rabi,test
+Andhra Pradesh,Maize,2018,2.75,Kharif,test
+Tamil Nadu,Tomato,2023,23.13,Rabi,test
+Uttar Pradesh,Banana,2023,34.71,Rabi,test
+Uttar Pradesh,Sugarcane,2020,71.43,Rabi,test
+Haryana,Maize,2015,3.82,Kharif,test
+Madhya Pradesh,Soybean,2019,0.89,Kharif,test
+Haryana,Sugarcane,2022,59.56,Rabi,test
+Madhya Pradesh,Jowar,2025,1.18,Kharif,test
+Tamil Nadu,Onion,2024,13.62,Rabi,test
+Karnataka,Sugarcane,2024,74.25,Rabi,test
+Uttar Pradesh,Rice,2022,3.14,Kharif,test
+West Bengal,Jowar,2016,0.89,Kharif,test
+Madhya Pradesh,Potato,2019,22.24,Rabi,test
+West Bengal,Groundnut,2025,1.23,Kharif,test
+Haryana,Jowar,2024,0.9,Kharif,test
+West Bengal,Tomato,2024,23.74,Rabi,test
+Tamil Nadu,Maize,2019,3.53,Kharif,test
+Andhra Pradesh,Bajra,2025,1.3,Kharif,test
+West Bengal,Soybean,2016,0.92,Kharif,test
+Bihar,Rice,2015,2.22,Kharif,test
+Uttar Pradesh,Jowar,2019,1.01,Kharif,test
+Rajasthan,Banana,2022,39.41,Rabi,test
+Madhya Pradesh,Banana,2016,41.72,Rabi,test
+Haryana,Soybean,2020,1.0,Kharif,test
+Tamil Nadu,Rice,2020,3.0,Kharif,test
+Haryana,Cotton,2018,0.53,Kharif,test
+Punjab,Banana,2022,37.75,Rabi,test
+Bihar,Groundnut,2021,1.36,Kharif,test
+Madhya Pradesh,Tomato,2018,23.93,Rabi,test
+Uttar Pradesh,Tomato,2020,27.41,Rabi,test
+Madhya Pradesh,Cotton,2024,0.54,Kharif,test
+Bihar,Wheat,2019,4.14,Rabi,test
+Rajasthan,Maize,2023,2.93,Kharif,test
+West Bengal,Mustard,2017,1.1,Rabi,test
+Tamil Nadu,Gram,2022,1.25,Rabi,test
+Maharashtra,Tomato,2019,28.35,Rabi,test
+Gujarat,Groundnut,2020,1.48,Kharif,test
+Tamil Nadu,Maize,2024,2.74,Kharif,test
+Tamil Nadu,Cotton,2017,0.45,Kharif,test
+Gujarat,Groundnut,2018,1.55,Kharif,test
+Bihar,Soybean,2016,0.93,Kharif,test
+Tamil Nadu,Bajra,2019,1.17,Kharif,test
+Haryana,Cotton,2022,0.5,Kharif,test
+Punjab,Cotton,2016,0.41,Kharif,test
+Madhya Pradesh,Bajra,2020,1.18,Kharif,test
+Maharashtra,Wheat,2017,3.75,Rabi,test
+Gujarat,Jowar,2025,1.13,Kharif,test
+Gujarat,Banana,2019,34.14,Rabi,test
+Rajasthan,Gram,2018,1.0,Rabi,test
+Gujarat,Tomato,2019,21.22,Rabi,test
+Punjab,Groundnut,2018,1.61,Kharif,test
+Gujarat,Cotton,2025,0.59,Kharif,test
+Karnataka,Tomato,2021,22.83,Rabi,test
+Maharashtra,Tomato,2018,21.02,Rabi,test
+Gujarat,Sugarcane,2020,83.29,Rabi,test
+Madhya Pradesh,Bajra,2021,1.54,Kharif,test
+Haryana,Tomato,2025,24.19,Rabi,test
+Punjab,Wheat,2017,3.96,Rabi,test
+Haryana,Mustard,2022,1.22,Rabi,test
+Maharashtra,Soybean,2021,0.95,Kharif,test
+Uttar Pradesh,Potato,2017,26.08,Rabi,test
+Andhra Pradesh,Gram,2025,0.98,Rabi,test
+Haryana,Rice,2016,2.74,Kharif,test
+Karnataka,Wheat,2019,3.01,Rabi,test
+Punjab,Wheat,2024,4.17,Rabi,test
+Maharashtra,Mustard,2023,1.24,Rabi,test
+Rajasthan,Maize,2020,3.42,Kharif,test
+Bihar,Maize,2016,2.98,Kharif,test
+Tamil Nadu,Banana,2025,31.65,Rabi,test
+Bihar,Cotton,2025,0.57,Kharif,test
+Karnataka,Rice,2021,2.29,Kharif,test
+Andhra Pradesh,Bajra,2017,1.25,Kharif,test
+Bihar,Soybean,2021,0.89,Kharif,test
+Rajasthan,Onion,2022,16.84,Rabi,test
+Maharashtra,Tomato,2016,22.75,Rabi,test
+Rajasthan,Bajra,2021,1.09,Kharif,test
+Madhya Pradesh,Maize,2019,2.86,Kharif,test
+Karnataka,Gram,2015,0.99,Rabi,test
+Haryana,Maize,2017,3.03,Kharif,test
+West Bengal,Banana,2017,31.09,Rabi,test
+Karnataka,Mustard,2022,1.27,Rabi,test
+Madhya Pradesh,Cotton,2021,0.41,Kharif,test
+Bihar,Wheat,2018,3.39,Rabi,test
+West Bengal,Potato,2015,25.82,Rabi,test
+Maharashtra,Wheat,2019,3.52,Rabi,test
+Tamil Nadu,Groundnut,2019,1.45,Kharif,test
+Uttar Pradesh,Mustard,2016,1.29,Rabi,test
+Bihar,Soybean,2015,0.9,Kharif,test
+Karnataka,Maize,2024,2.61,Kharif,test
+Madhya Pradesh,Onion,2025,15.99,Rabi,test
+Haryana,Onion,2025,17.16,Rabi,test
+Punjab,Wheat,2025,2.87,Rabi,test
+Gujarat,Wheat,2021,3.4,Rabi,test
+Uttar Pradesh,Jowar,2023,1.13,Kharif,test
+Andhra Pradesh,Maize,2022,3.0,Kharif,test
+Haryana,Bajra,2016,1.36,Kharif,test
+Karnataka,Jowar,2024,0.95,Kharif,test
+Andhra Pradesh,Potato,2020,20.29,Rabi,test
+Uttar Pradesh,Potato,2015,22.38,Rabi,test
+Madhya Pradesh,Mustard,2017,1.23,Rabi,test
+Gujarat,Bajra,2022,1.17,Kharif,test
+Bihar,Maize,2023,3.36,Kharif,test
+Uttar Pradesh,Wheat,2017,3.78,Rabi,test
+Madhya Pradesh,Soybean,2025,0.91,Kharif,test
+Gujarat,Wheat,2016,3.0,Rabi,test
+West Bengal,Cotton,2017,0.56,Kharif,test
+Punjab,Jowar,2024,0.8,Kharif,test
+West Bengal,Cotton,2019,0.58,Kharif,test
+Karnataka,Sugarcane,2017,73.36,Rabi,test
+Tamil Nadu,Gram,2016,1.01,Rabi,test
+Gujarat,Tomato,2025,20.13,Rabi,test
+Punjab,Onion,2025,19.53,Rabi,test
+Gujarat,Banana,2023,31.28,Rabi,test
+Uttar Pradesh,Rice,2015,2.27,Kharif,test
+Andhra Pradesh,Onion,2021,19.17,Rabi,test
+Uttar Pradesh,Gram,2019,0.94,Rabi,test
+Punjab,Jowar,2015,0.96,Kharif,test
+Bihar,Mustard,2025,1.23,Rabi,test
+Tamil Nadu,Sugarcane,2025,58.93,Rabi,test
+West Bengal,Tomato,2023,29.97,Rabi,test
+Tamil Nadu,Soybean,2021,1.0,Kharif,test
+Tamil Nadu,Gram,2023,1.21,Rabi,test
+Andhra Pradesh,Gram,2022,0.94,Rabi,test
+Karnataka,Cotton,2017,0.59,Kharif,test
+Gujarat,Gram,2022,0.94,Rabi,test
+Tamil Nadu,Gram,2019,1.22,Rabi,test
