@@ -1,0 +1,23 @@
+unnamed: 0,crop,n,p,k,ph,soil_moisture,split
+0,rice,80,40,40,5.5,30,train
+66,watermelon,100,10,50,5.5,70,train
+24,lentil,20,60,20,5.5,90,train
+3,maize,80,40,20,5.5,50,train
+69,apple,20,125,200,6.5,50,train
+14,mothbeans,20,40,20,5.5,30,train
+94,jute,80,40,40,5.5,20,train
+62,mango,20,20,30,5.0,15,train
+12,kidneybeans,20,60,20,5.5,45,train
+13,pigeonpeas,20,60,20,5.5,45,train
+75,papaya,50,50,50,6.0,20,train
+63,grapes,20,125,200,4.0,60,train
+88,coconut,20,10,30,5.0,45,train
+74,orange,20,10,10,4.0,60,train
+5,chickpea,40,60,80,5.5,60,train
+60,pomegranate,20,10,40,5.5,30,train
+95,coffee,100,20,30,5.5,20,train
+18,blackgram,40,60,20,5.0,60,val
+61,banana,100,75,50,6.5,40,val
+67,muskmelon,100,10,50,5.5,30,test
+93,cotton,120,40,20,5.5,70,test
+15,mungbean,20,40,20,5.5,80,test
