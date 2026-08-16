@@ -34,7 +34,7 @@ const BotFab = () => {
   return (
     <button
       onClick={() => navigate('/chatbot')}
-      aria-label="KisanBot - AI Farming Assistant"
+      aria-label="AgriBot - AI Farming Assistant"
       className="fixed bottom-[calc(11rem+env(safe-area-inset-bottom))] right-6 z-50 h-14 w-14 rounded-full bg-gradient-to-br from-green-600 to-emerald-500 text-white shadow-xl flex items-center justify-center hover:scale-110 transition-transform"
     >
       <Bot className="h-7 w-7" />
