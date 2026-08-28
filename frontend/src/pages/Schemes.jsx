@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Search, ExternalLink } from 'lucide-react';
+import { Search, ExternalLink, Loader2, AlertCircle } from 'lucide-react';
 import { Input } from '../components/ui/input';
 import { Button } from '../components/ui/button';
 import { useTranslation } from 'react-i18next';
@@ -146,11 +146,21 @@ const Schemes = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [tab, setTab] = useState('schemes');
     const [loans, setLoans] = useState([]);
+    const [loansLoading, setLoansLoading] = useState(true);
+    const [loansError, setLoansError] = useState(null);
     const [applyItem, setApplyItem] = useState(null);
 
     useEffect(() => {
-        API.get('/loans').then(r => setLoans(r.data.loans)).catch(() => { });
-    }, []);
+        // Schemes render from a local list, but loans come from the backend —
+        // surface a failure instead of showing an empty loans tab.
+        API.get('/loans')
+            .then(r => setLoans(r.data.loans))
+            .catch(err => {
+                console.error(err);
+                setLoansError(t('loans_load_failed'));
+            })
+            .finally(() => setLoansLoading(false));
+    }, [t]);
 
     const filteredLoans = loans.filter(l => (l.title + l.benefit).toLowerCase().includes(searchTerm.toLowerCase()));
 
@@ -192,7 +202,20 @@ const Schemes = () => {
                     <button onClick={() => setTab('loans')} className={`px-4 py-2 rounded-full text-sm font-medium ${tab === 'loans' ? 'bg-primary text-white' : 'bg-white border border-gray-300'}`}>{t('loans_tab')}</button>
                 </div>
 
-                {tab === 'loans' && (
+                {tab === 'loans' && loansLoading && (
+                    <div className="flex justify-center items-center h-64">
+                        <Loader2 className="h-8 w-8 animate-spin text-primary" />
+                    </div>
+                )}
+
+                {tab === 'loans' && !loansLoading && loansError && (
+                    <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded">
+                        <AlertCircle className="inline h-4 w-4 mr-2" />
+                        {loansError}
+                    </div>
+                )}
+
+                {tab === 'loans' && !loansLoading && !loansError && (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {filteredLoans.map(l => (
                             <div key={l.id} className="glass-card rounded-xl p-5 border border-green-50/50 group hover:shadow-glow-green transition-all">
