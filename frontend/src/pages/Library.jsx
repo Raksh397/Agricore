@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, X, BookOpen } from 'lucide-react';
+import { Search, X, BookOpen, Loader2, AlertCircle } from 'lucide-react';
 import { useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import API from '../api';
@@ -28,12 +28,23 @@ const Library = () => {
     const [search, setSearch] = useState('');
     const [selected, setSelected] = useState(null);
     const [infoCrop, setInfoCrop] = useState(null);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
-        API.get('/disease-library').then(r => setDiseases(r.data.items.filter(d => d.disease.toLowerCase() !== 'healthy'))).catch(console.error);
-        API.get('/dataset/cultivation-guides').then(r => setGuides(r.data.items)).catch(console.error);
-        API.get('/dataset/ideal-npk').then(r => setNpk(r.data.items)).catch(console.error);
-    }, []);
+        // The crops tab renders from a local catalog, but diseases/tips/npk come
+        // from the backend — surface load failures instead of rendering blank.
+        Promise.all([
+            API.get('/disease-library').then(r => setDiseases(r.data.items.filter(d => d.disease.toLowerCase() !== 'healthy'))),
+            API.get('/dataset/cultivation-guides').then(r => setGuides(r.data.items)),
+            API.get('/dataset/ideal-npk').then(r => setNpk(r.data.items)),
+        ])
+            .catch(err => {
+                console.error(err);
+                setError(t('library_load_failed'));
+            })
+            .finally(() => setLoading(false));
+    }, [t]);
 
     const q = search.toLowerCase();
     const crops = CROP_CATALOG.filter(c => c.name.toLowerCase().includes(q));
@@ -45,10 +56,10 @@ const Library = () => {
         <div className="space-y-4 pb-24">
             <h1 className="text-3xl font-bold flex items-center gap-2"><BookOpen className="h-8 w-8 text-primary" /> {t('library')}</h1>
 
-            <div className="flex gap-2">
+            <div className="flex gap-2 overflow-x-auto pb-1 -mx-1 px-1">
                 {['crops', 'diseases', 'tips', 'npk'].map(k => (
                     <button key={k} onClick={() => setTab(k)}
-                        className={`px-4 py-2 rounded-full text-sm font-medium ${tab === k ? 'bg-primary text-white' : 'bg-white border border-gray-300'}`}>
+                        className={`shrink-0 whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors ${tab === k ? 'bg-primary text-white' : 'bg-white border border-gray-300 hover:border-primary'}`}>
                         {k === 'npk' ? (t('ideal_npk') || 'Ideal NPK') : t(k === 'crops' ? 'crops_lib' : k === 'diseases' ? 'pests_lib' : 'tips_lib')}
                     </button>
                 ))}
@@ -58,6 +69,19 @@ const Library = () => {
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                 <Input value={search} onChange={e => setSearch(e.target.value)} placeholder={t('search_community')} className="pl-10" />
             </div>
+
+            {tab !== 'crops' && loading && (
+                <div className="flex justify-center items-center h-64">
+                    <Loader2 className="h-8 w-8 animate-spin text-primary" />
+                </div>
+            )}
+
+            {tab !== 'crops' && !loading && error && (
+                <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded">
+                    <AlertCircle className="inline h-4 w-4 mr-2" />
+                    {error}
+                </div>
+            )}
 
             {tab === 'crops' && (
                 <div className="grid grid-cols-3 sm:grid-cols-4 gap-4">
@@ -70,9 +94,9 @@ const Library = () => {
                 </div>
             )}
 
-            {tab === 'diseases' && (
+            {tab === 'diseases' && !loading && !error && (
                 <div className="space-y-2">
-                    <p className="text-xs text-muted-foreground">{filteredDiseases.length} diseases · from disease_treatments dataset</p>
+                    <p className="text-xs text-muted-foreground">{filteredDiseases.length} {t('diseases_count_label')}</p>
                     {filteredDiseases.map((d, i) => (
                         <button key={i} onClick={() => setSelected(d)} className="w-full text-left bg-white rounded-xl border p-4 hover:border-primary">
                             <div className="flex items-start justify-between gap-2">
@@ -89,9 +113,9 @@ const Library = () => {
                 </div>
             )}
 
-            {tab === 'tips' && (
+            {tab === 'tips' && !loading && !error && (
                 <div className="space-y-3">
-                    <p className="text-xs text-muted-foreground">{filteredGuides.length} crops · from cultivation_guides dataset</p>
+                    <p className="text-xs text-muted-foreground">{filteredGuides.length} {t('crops_count_label')}</p>
                     {filteredGuides.map((g, i) => (
                         <div key={i} className="bg-white rounded-xl border p-4 space-y-2">
                             <p className="font-semibold">🌱 {translateCrop(g.crop, lang)}</p>
@@ -108,9 +132,9 @@ const Library = () => {
                 </div>
             )}
 
-            {tab === 'npk' && (
+            {tab === 'npk' && !loading && !error && (
                 <div className="space-y-2">
-                    <p className="text-xs text-muted-foreground">{filteredNpk.length} crops · from fertilizer_ideal_npk dataset</p>
+                    <p className="text-xs text-muted-foreground">{filteredNpk.length} {t('crops_count_label')}</p>
                     {filteredNpk.map((n, i) => (
                         <div key={i} className="bg-white rounded-xl border p-4 flex items-center justify-between">
                             <div>

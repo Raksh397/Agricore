@@ -29,6 +29,7 @@ const SymptomDiagnosis = () => {
     const { t, i18n } = useTranslation();
     const lang = (i18n.language || 'en').split('-')[0];
     const [opts, setOpts] = useState(null);
+    const [optsError, setOptsError] = useState(null);
     const [ans, setAns] = useState({ crop: '', part: '', sign: '', colour: '', pattern: '' });
     const [res, setRes] = useState(null);
     const [askPattern, setAskPattern] = useState(false);
@@ -36,8 +37,15 @@ const SymptomDiagnosis = () => {
     const [open, setOpen] = useState(null);
 
     useEffect(() => {
-        fetchSymptomOptions().then(r => setOpts(r.data)).catch(console.error);
-    }, []);
+        fetchSymptomOptions()
+            .then(r => setOpts(r.data))
+            .catch(err => {
+                console.error(err);
+                // Without options there is no question UI to show, so say so
+                // rather than sitting on a loading message forever.
+                setOptsError(t('load_failed'));
+            });
+    }, [t]);
 
     const run = async (override = {}) => {
         const payload = { ...ans, ...override };
@@ -67,6 +75,13 @@ const SymptomDiagnosis = () => {
         setAns({ crop: '', part: '', sign: '', colour: '', pattern: '' });
         setRes(null); setAskPattern(false); setOpen(null);
     };
+
+    if (optsError) return (
+        <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded">
+            <AlertCircle className="inline h-4 w-4 mr-2" />
+            {optsError}
+        </div>
+    );
 
     if (!opts) return <p className="text-sm text-muted-foreground">{t('fd_loading')}</p>;
 

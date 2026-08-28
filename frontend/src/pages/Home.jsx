@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { MoreVertical, Plus, ScanLine, FileCheck2, Pill, XCircle, CheckCircle2, Leaf, SprayCan, Calculator, X, Bot, Database } from 'lucide-react';
+import { Plus, ScanLine, FileCheck2, Pill, XCircle, CheckCircle2, Leaf, SprayCan, Calculator, X, Bot, Database } from 'lucide-react';
 import axios from 'axios';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
@@ -79,7 +79,6 @@ const Home = () => {
             {/* Title row */}
             <div className="flex items-center justify-between px-4 pt-1">
                 <h1 className="text-2xl font-extrabold tracking-tight">Agri<span className="text-primary">core</span></h1>
-                <MoreVertical className="h-6 w-6 text-gray-700" />
             </div>
 
             {/* Crop circles */}
