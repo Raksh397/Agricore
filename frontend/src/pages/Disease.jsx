@@ -6,7 +6,6 @@ import { Card, CardContent } from '../components/ui/card';
 import { Button } from '../components/ui/button';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { speak } from '../utils/speech';
 import { translateCrop, translateDisease } from '../utils/agriI18n';
 import { useTranslated } from '../utils/translateText';
 import SymptomDiagnosis from '../components/SymptomDiagnosis';
@@ -59,29 +58,6 @@ const Disease = () => {
         try {
             const response = await predictDisease(formData);
             setResult(response.data);
-
-            // Speak result in the selected language
-            const lang = (i18n.language || 'en').split('-')[0];
-            const { confidence } = response.data;
-
-            // Model wasn't sure enough to name a disease — say so instead of guessing
-            if (response.data.uncertain) {
-                speak(t('dx_unsure_speak'), lang);
-                return;
-            }
-
-            const isHealthy = (response.data.disease || '').toLowerCase() === 'healthy';
-            const crop = translateCrop(response.data.crop, lang);
-            const disease = translateDisease(response.data.disease, lang);
-            const templates = {
-                en: isHealthy ? `Your ${crop} plant looks healthy.` : `I found ${disease} on the ${crop}. Confidence is ${confidence} percent.`,
-                hi: isHealthy ? `आपका ${crop} पौधा स्वस्थ दिख रहा है।` : `${crop} पर ${disease} रोग पाया गया। विश्वास स्तर ${confidence} प्रतिशत है।`,
-                kn: isHealthy ? `ನಿಮ್ಮ ${crop} ಗಿಡ ಆರೋಗ್ಯಕರವಾಗಿದೆ.` : `${crop} ಮೇಲೆ ${disease} ರೋಗ ಕಂಡುಬಂದಿದೆ. ವಿಶ್ವಾಸ ${confidence} ಪ್ರತಿಶತ.`,
-                ta: isHealthy ? `உங்கள் ${crop} செடி ஆரோக்கியமாக உள்ளது.` : `${crop} மீது ${disease} நோய் கண்டறியப்பட்டது. நம்பிக்கை ${confidence} சதவீதம்.`,
-                te: isHealthy ? `మీ ${crop} మొక్క ఆరోగ్యంగా ఉంది.` : `${crop} పై ${disease} వ్యాధి కనుగొనబడింది. విశ్వాసం ${confidence} శాతం.`,
-                ml: isHealthy ? `നിങ്ങളുടെ ${crop} ചെടി ആരോഗ്യകരമാണ്.` : `${crop} ൽ ${disease} രോഗം കണ്ടെത്തി. വിശ്വാസ്യത ${confidence} ശതമാനം.`
-            };
-            speak(templates[lang] || templates.en, lang);
         } catch (err) {
             setError(err.response?.data?.detail || "Error predicting disease. Please try again.");
             console.error(err);
@@ -253,12 +229,11 @@ const Disease = () => {
             <AnimatePresence>
                 {result && (
                     <motion.div
-                        initial={{ y: "100%", opacity: 0 }}
+                        initial={{ y: 24, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ type: "spring", damping: 25, stiffness: 200 }}
-                        className="fixed inset-x-0 bottom-0 z-40 bg-white rounded-t-[32px] shadow-[0_-5px_30px_rgba(0,0,0,0.1)] p-6 pb-28 border-t border-gray-100 max-h-[85vh] overflow-y-auto"
+                        className="bg-white rounded-3xl shadow-[0_5px_30px_rgba(0,0,0,0.08)] p-6 border border-gray-100"
                     >
-                        <div className="w-12 h-1.5 bg-gray-200 rounded-full mx-auto mb-6" />
 
                         <div className="space-y-6">
                             <div className="flex items-center justify-between">

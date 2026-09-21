@@ -1,7 +1,7 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException
 import torch
 import torch.nn as nn
-from torchvision import transforms
+from torchvision import transforms, models
 from PIL import Image
 import io
 import os
@@ -16,26 +16,42 @@ from ..utils.symptom_rules import (
 
 router = APIRouter()
 
-# Confidence gating thresholds for /predict-disease. A prediction is only reported
-# as an actual disease when the top probability clears CONF_MIN *and* leads the
-# second-best class by at least MARGIN_MIN.
-CONF_MIN = 0.75
-MARGIN_MIN = 0.15
+# Confidence gating thresholds for /predict-disease.
+#
+# Real leaf photos from a phone or the internet never look like the clean, single-
+# leaf, plain-background PlantVillage training images, so the model's absolute
+# softmax score on them is genuinely lower even when the top class is correct.
+# The earlier 0.75/0.15 gate was tuned for training-set images and rejected almost
+# every real photo with "not confident enough", which is the bug the user hit.
+#
+# We now always name the model's best guess (the class it actually predicted) and
+# use the thresholds only to *flag* how sure to be, never to withhold the answer:
+#   - conf >= CONF_MIN and margin >= MARGIN_MIN  -> confident result
+#   - REVIEW_MIN <= conf < CONF_MIN              -> tentative result (still shown)
+#   - conf < REVIEW_MIN                          -> too little signal / not a leaf
+CONF_MIN = 0.55
+MARGIN_MIN = 0.08
+REVIEW_MIN = 0.20
 
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 _MODELS = os.path.join(BASE_DIR, "models")
 
-# The expanded model (91 classes, trained by devtools/train_expanded.ipynb) is used
-# when it has been dropped in; otherwise we fall back to the original 38-class one.
-# Both are the same ResNet9, and the head is sized from the class list at load time,
-# so swapping the two files is all that is needed to switch.
+# The v2 model (devtools/train_disease.py) is a transfer-learned ResNet18 trained
+# with realistic augmentation + ImageNet normalization — it is used when present;
+# otherwise we fall back to the original from-scratch ResNet9. The two need
+# DIFFERENT preprocessing, so the architecture is detected from the weights at load
+# time (see below) and the matching transform is selected. Dropping the v2 files
+# into backend/models/ and restarting is all that is needed to switch.
 _EXPANDED = (os.path.join(_MODELS, "plant_disease_model_v2.pth"),
              os.path.join(_MODELS, "class_indices_v2.json"))
 _BASE = (os.path.join(_MODELS, "plant_disease_model.pth"),
          os.path.join(_MODELS, "class_indices.json"))
 
 MODEL_PATH, CLASS_INDICES_PATH = _EXPANDED if all(map(os.path.exists, _EXPANDED)) else _BASE
+
+IMAGENET_MEAN = [0.485, 0.456, 0.406]
+IMAGENET_STD = [0.229, 0.224, 0.225]
 
 
 # ResNet9 architecture (matches the weights in plant_disease_model.pth)
@@ -75,6 +91,18 @@ class ResNet9(nn.Module):
 # Global variables
 model = None
 class_names = []
+# Preprocessing is chosen to match whichever model actually loaded (set below).
+_transform = transforms.Compose([
+    transforms.Resize((256, 256)),
+    transforms.ToTensor(),
+])
+
+
+def _build_resnet18(num_classes):
+    net = models.resnet18(weights=None)
+    net.fc = nn.Linear(net.fc.in_features, num_classes)
+    return net
+
 
 # Load Model & Class Indices
 if os.path.exists(MODEL_PATH) and os.path.exists(CLASS_INDICES_PATH):
@@ -84,21 +112,38 @@ if os.path.exists(MODEL_PATH) and os.path.exists(CLASS_INDICES_PATH):
             # ordered list: index -> class_name
             class_names = [k for k, v in sorted(indices.items(), key=lambda x: x[1])]
 
-        model = ResNet9(3, len(class_names))
-        model.load_state_dict(torch.load(MODEL_PATH, map_location="cpu"))
+        state = torch.load(MODEL_PATH, map_location="cpu")
+        # Detect architecture from the weight keys: the transfer-learned v2 model is
+        # a torchvision ResNet18 (has "fc.weight" + "layer1..." keys); the original
+        # is our custom ResNet9 (has "conv1..."/"classifier..." keys).
+        is_resnet18 = "fc.weight" in state and any(k.startswith("layer1.") for k in state)
+
+        if is_resnet18:
+            model = _build_resnet18(len(class_names))
+            model.load_state_dict(state)
+            # Must match training: 224px + ImageNet normalization.
+            _transform = transforms.Compose([
+                transforms.Resize((224, 224)),
+                transforms.ToTensor(),
+                transforms.Normalize(IMAGENET_MEAN, IMAGENET_STD),
+            ])
+            arch = "ResNet18 (transfer-learned v2, normalized)"
+        else:
+            model = ResNet9(3, len(class_names))
+            model.load_state_dict(state)
+            _transform = transforms.Compose([
+                transforms.Resize((256, 256)),
+                transforms.ToTensor(),
+            ])
+            arch = "ResNet9 (base)"
+
         model.eval()
-        print("Disease prediction model loaded successfully (ResNet9 / PyTorch).")
+        print(f"Disease prediction model loaded successfully ({arch}, {len(class_names)} classes).")
     except Exception as e:
         print(f"Error loading model or class indices: {e}")
         model = None
 else:
     print(f"Warning: Model or Class Indices not found. Checked: {MODEL_PATH}, {CLASS_INDICES_PATH}")
-
-# Same preprocessing the model was trained with
-_transform = transforms.Compose([
-    transforms.Resize((256, 256)),
-    transforms.ToTensor(),
-])
 
 
 def transform_image(image_bytes):
@@ -205,27 +250,33 @@ async def predict_disease(file: UploadFile = File(...)):
 
         description = disease_dic.get(predicted_class_name, "No description available.")
 
-        # Confidence gating: only name a disease when the model is genuinely sure.
-        # Two conditions must both hold — a high absolute probability AND a clear
-        # margin over the runner-up class. A confident-looking softmax score with a
-        # near-tied second guess means the model is really undecided between two
-        # look-alike diseases, so we say "not sure" instead of guessing wrong.
         conf = confidence.item()
         margin = conf - (top3_p[0][1].item() if top3_p.shape[1] > 1 else 0.0)
-        sure = conf >= CONF_MIN and margin >= MARGIN_MIN
 
-        if not sure:
+        # Only refuse when there is barely any signal at all — a photo that is not
+        # a leaf, or is too blurry/dark for the model to commit to anything. In
+        # that case even the top class sits near chance level.
+        if conf < REVIEW_MIN:
+            # `uncertain` tells the UI to withhold a disease name — reserved for
+            # the genuine "this isn't a readable leaf" case only.
             return {
-                "crop": crop_name if conf >= 0.35 else None,
+                "crop": None,
                 "disease": None,
                 "confidence": round(conf * 100, 2),
                 "recommendation": None,
                 "top3": top3,
                 "uncertain": True,
                 "low_confidence": True,
-                "message": ("Not confident enough to name a disease. Retake the photo: fill the "
+                "message": ("Couldn't read a plant leaf in this image. Retake the photo: fill the "
                             "frame with a single affected leaf, in daylight, with a plain background."),
             }
+
+        # Otherwise always name the model's best guess. A high score with a clear
+        # margin is a confident result; a lower score or a near-tied runner-up is
+        # still shown (disease named) but flagged low_confidence so the UI can add
+        # a "double-check against the other matches" note. We never hide the answer
+        # behind "less confidence, no result".
+        confident = conf >= CONF_MIN and margin >= MARGIN_MIN
 
         return {
             "crop": crop_name,
@@ -234,7 +285,7 @@ async def predict_disease(file: UploadFile = File(...)):
             "recommendation": description,
             "top3": top3,
             "uncertain": False,
-            "low_confidence": False,
+            "low_confidence": not confident,
         }
 
     except HTTPException:

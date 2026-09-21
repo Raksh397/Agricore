@@ -1,0 +1,12 @@
+{
+  "name": "agricore",
+  "private": true,
+  "description": "Agricore — root launcher. The frontend lives in ./frontend; these scripts delegate to it so `npm run dev` works from the project root.",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "lint": "npm --prefix frontend run lint",
+    "install:frontend": "npm --prefix frontend install"
+  }
+}

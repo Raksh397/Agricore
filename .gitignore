@@ -46,3 +46,6 @@ Docs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local demo/test images (derived from dataset)
+demo_test_images/
